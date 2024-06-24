@@ -57,7 +57,7 @@ const WhoCanBenefit = ({ data }) => {
               </Text>
             );
           }
-          return <Text>{bullet}</Text>;
+          return <Text key={inx}>{bullet}</Text>;
         })}
       </ContentContainer>
     </Container>

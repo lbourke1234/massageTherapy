@@ -39,7 +39,7 @@ const ContentContainer = styled.div`
 
 const HowDoesItWork = ({ data }) => {
   return (
-    <Container>
+    <Container key={data.key}>
       <ContentContainer>
         <Heading>How does it work?</Heading>
         {data.howDoesItWork.map((text) => (
