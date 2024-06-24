@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
           strategy="lazyOnload"
         />
         {/* <!-- Google tag (gtag.js) --> */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-0SVK6VYVS9" />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LFWV77T80R" />
         <Script
           id="google-analytics"
           strategy="afterInteractive"
@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-0SVK6VYVS9');
+              gtag('config', 'G-LFWV77T80R');
             `,
           }}
         />
