@@ -39,10 +39,16 @@ const Author = styled.span`
   font-size: 1.2em;
   text-decoration: underline;
   margin-left: 0.2em;
+  @media screen and (max-width: 1200px) {
+    font-size: 1em;
+  }
 `;
 const Date = styled.span`
   font-size: 1.2em;
   margin-left: 0.2em;
+  @media screen and (max-width: 1200px) {
+    font-size: 1em;
+  }
 `;
 const InfoContainer = styled.div`
   padding: 1em 0 0 0;

@@ -9,6 +9,7 @@ const MobileLogo = () => {
       viewBox="0 0 1866 266"
       height={"2.6em"}
       width={"8em"}
+      className="inline-block"
     >
       <defs>
         <style
