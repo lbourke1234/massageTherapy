@@ -24,16 +24,12 @@ const generateEmailContent = (data) => {
 
 export function GET(req, res) {
   if (req.method === "GET") {
-    console.log("GET");
     return Response.json({ response: "Get test working!" }, { status: 201 });
   }
 }
 
 export async function POST(req, res) {
   const data = await req.json();
-  console.log(res);
-  // const data = await response.json();
-  console.log(data);
   if (!data.name || !data.fromEmail || !data.message || !data.phoneNumber) {
     return Response.json({ message: "Bad request" }, { status: 400 });
   }
@@ -44,11 +40,9 @@ export async function POST(req, res) {
       ...generateEmailContent(data),
       subject: data.subject,
     });
-    console.log(data);
 
     return Response.json({ success: true }, { status: 201 });
   } catch (err) {
-    console.log(err);
     return Response.json({ message: err.message }, { status: 400 });
   }
 }

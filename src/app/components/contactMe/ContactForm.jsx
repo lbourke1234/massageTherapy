@@ -121,27 +121,6 @@ const ContactForm = () => {
     }
     setEmailSent(true);
   };
-  // fetch("https://api.massagetherapy.london/mail/send", {
-  //   method: "POST",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //   },
-  //   body: JSON.stringify(form),
-  // })
-  //   .then((response) => {
-  //     if (!response.ok) {
-  //       throw new Error("Network response was not ok");
-  //     }
-  //   })
-  //   .then((data) => {
-  //     console.log("Successfully sent email", data);
-  //     setEmailSent(true);
-  //   })
-  //   .catch((error) => {
-  //     setEmailFailed(true);
-  //     console.error("Error: ", error);
-  //   });
-  // };
 
   return (
     <>

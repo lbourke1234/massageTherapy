@@ -164,7 +164,6 @@ const Navbar = () => {
   }, [prevScrollpos]);
 
   const handleToggleNavbar = (e) => {
-    console.log("clicked");
     e.stopPropagation();
     setShowMenu(!showMenu); // Toggle menu visibility
   };
