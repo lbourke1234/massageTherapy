@@ -11,11 +11,11 @@ const SubHeading = styled.h3`
   font-size: 2em;
   font-weight: 600;
   @media screen and (max-width: 800px) {
+    font-size: 1.5em;
   }
-  font-size: 1.5em;
 `;
 const Text = styled.p`
-  font-size: 1.2em;
+  font-size: 1.1em;
   @media screen and (max-width: 800px) {
     font-size: 1em;
   }

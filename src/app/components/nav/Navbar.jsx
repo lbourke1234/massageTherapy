@@ -196,9 +196,11 @@ const Navbar = () => {
             <div ref={hamburgerRef} onClick={(e) => handleToggleNavbar(e)}>
               <HamburgerMenuStyled />
             </div>
-            <MobileLogoContainer>
-              <MobileLogo />
-            </MobileLogoContainer>
+            <Link href={"/"}>
+              <MobileLogoContainer>
+                <MobileLogo />
+              </MobileLogoContainer>
+            </Link>
             <StyledExtraButtonMobile onClick={() => goToExternalSite()}>
               Book Now!
             </StyledExtraButtonMobile>
@@ -231,10 +233,12 @@ const Navbar = () => {
                 </Link>
               </ul>
             </Row>
-            <IconsContainer>
-              <Logo />
-            </IconsContainer>
-            <StyledExtraButton>Book Now!</StyledExtraButton>
+            <Link href={"/"}>
+              <IconsContainer>
+                <Logo />
+              </IconsContainer>
+            </Link>
+            <StyledExtraButton onClick={() => goToExternalSite()}>Book Now!</StyledExtraButton>
           </NavbarContainer>
         </NavContent>
       </div>

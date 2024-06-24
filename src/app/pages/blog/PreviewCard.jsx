@@ -24,12 +24,16 @@ const Heading = styled.h2`
   color: black;
   padding: 0.2em 0;
   font-weight: 600;
+  font-size: 2em;
+  @media screen and (max-width: 1200px) {
+    font-size: 1.5em;
+  }
   &:hover {
     cursor: pointer;
   }
 `;
 const Text = styled.p`
-  font-size: 1.3em;
+  // font-size: 1.3em;
 `;
 const Author = styled.span`
   font-size: 1.2em;

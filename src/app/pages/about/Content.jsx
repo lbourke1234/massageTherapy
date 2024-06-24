@@ -23,8 +23,9 @@ const MainContainer = styled.div`
 
 const Bespoke = styled.p`
   font-size: 1.5em;
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     text-align: left;
+    // font-size: 1em;
   }
 `;
 const BottomContainer = styled.div`
