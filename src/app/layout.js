@@ -58,12 +58,12 @@ export default function RootLayout({ children }) {
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           rel="stylesheet"
         /> */}
-        {/* <!-- Google tag (gtag.js) -->
+        {/* <!-- Google tag (gtag.js) --> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SVK6VYVS9"></script>
         <script>
           window.dataLayer = window.dataLayer || [] function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date()) gtag('config', 'G-0SVK6VYVS9');
-        </script> */}
+        </script>
       </head>
       <body className={inter.className}>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
