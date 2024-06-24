@@ -42,8 +42,8 @@ const HowDoesItWork = ({ data }) => {
     <Container key={data.key}>
       <ContentContainer>
         <Heading>How does it work?</Heading>
-        {data.howDoesItWork.map((text) => (
-          <Text>{text}</Text>
+        {data.howDoesItWork.map((text, index) => (
+          <Text key={index}>{text}</Text>
         ))}
       </ContentContainer>
     </Container>
