@@ -19,6 +19,7 @@ const StyledContainer = styled(Col_2)`
 const Heading = styled.h2`
   padding-top: 1em;
   font-size: 1.5em;
+  font-weight: 500;
 `;
 
 const StyledImage = styled.img`

@@ -10,6 +10,7 @@ const Text = styled.p`
 `;
 const Heading = styled.h3`
   font-size: 1.5em;
+  font-weight: 500;
 `;
 const Container = styled.div`
   width: 60%;
