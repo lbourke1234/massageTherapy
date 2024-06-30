@@ -1,62 +1,18 @@
 "use client";
 
 import React from "react";
-import styled from "styled-components";
-import { GrInstagram } from "react-icons/gr";
-import { GrLinkedin } from "react-icons/gr";
-import { GrPhone } from "react-icons/gr";
 import { MassageLogo } from "../../styledComponents/components";
-
-const Instagram = styled(GrInstagram)`
-  &:hover {
-    cursor: pointer;
-  }
-`;
-const LinkedIn = styled(GrLinkedin)`
-  margin: 0 1em;
-  &:hover {
-    cursor: pointer;
-  }
-`;
-const Phone = styled(GrPhone)`
-  &:hover {
-    cursor: pointer;
-  }
-`;
-const ContactContainer = styled.a`
-  color: black;
-`;
-
-const Container = styled.div`
-  display: flex;
-  justify-content: space-around;
-  @media screen and (max-width: 800px) {
-    flex-direction: column;
-  }
-`;
-const MainContainer = styled.div`
-  padding: 1em 0 0 0;
-  color: black;
-  @media screen and (max-width: 800px) {
-    display: flex;
-    // justify-content: center;
-  }
-`;
-const ListElement = styled.li`
-  list-style: none;
-  padding: 0 0 1em 0;
-`;
-const ListHeading = styled.li`
-  color: rgb(253, 180, 42);
-  list-style: none;
-  font-size: 1.4em;
-  padding: 0 0 1.5em 0;
-`;
-const Copyright = styled.p`
-  text-align: center;
-  padding-bottom: 1em;
-  color: black;
-`;
+import {
+  ContactContainer,
+  Container,
+  Copyright,
+  Instagram,
+  LinkedIn,
+  ListElement,
+  ListHeading,
+  MainContainer,
+  Phone,
+} from "./SContactInfo";
 
 const ContactInfo = () => {
   return (

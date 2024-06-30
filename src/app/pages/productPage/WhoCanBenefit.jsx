@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import styled from "styled-components";
 import { mainBackground, mainCream } from "../../styledComponents/globalStyles";
