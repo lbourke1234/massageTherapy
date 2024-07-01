@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Space from "../about/Space";
 import Navbar from "../../components/nav/Navbar";

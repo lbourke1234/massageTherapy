@@ -1,20 +1,22 @@
-"use client";
-
 import React from "react";
-import { Container, Heading, ListContainer, ListItem, UList } from "./SBenefits";
 
 const Benefits = ({ data }) => {
   return (
-    <Container key={data.key}>
-      <Heading>Benefits:</Heading>
-      <ListContainer>
-        <UList>
+    <div
+      className="w-[90%] m-auto flex flex-col justify-center items-center cmMobile:py-8"
+      key={data.key}
+    >
+      <p className="cmMobile:text-2xl cm800:text-2em">Benefits:</p>
+      <div className="flex">
+        <ul className="list-disc">
           {data.benefits.map((benefit, key) => (
-            <ListItem key={key}>{benefit} </ListItem>
+            <li className="cmMobile:text-1em cm800:text-xl ml-8" key={key}>
+              {benefit}
+            </li>
           ))}
-        </UList>
-      </ListContainer>
-    </Container>
+        </ul>
+      </div>
+    </div>
   );
 };
 

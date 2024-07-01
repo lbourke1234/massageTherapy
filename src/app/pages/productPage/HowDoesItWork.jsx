@@ -1,18 +1,20 @@
-"use client";
-
 import React from "react";
-import { Container, ContentContainer, Heading, Text } from "./SHowDoesItWork";
 
 const HowDoesItWork = ({ data }) => {
   return (
-    <Container key={data.key}>
-      <ContentContainer>
-        <Heading>How does it work?</Heading>
+    <div
+      className="h-full bg-[#EFEBE0] text-black flex flex-col justify-center items-center py-4"
+      key={data.key}
+    >
+      <div className="cmMobile:w-[90%] cm800:w-[70%]">
+        <p className="cmMobile:text-2xl cm800:text-2em mb-4">How does it work?</p>
         {data.howDoesItWork.map((text, index) => (
-          <Text key={index}>{text}</Text>
+          <p className="cmMobile:text-1em cm800:text-xl" key={index}>
+            {text}
+          </p>
         ))}
-      </ContentContainer>
-    </Container>
+      </div>
+    </div>
   );
 };
 

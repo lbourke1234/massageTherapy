@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import StyledComponentsRegistry from "@/lib/StyledComponentsRegistry";
 import Script from "next/script";
 // import BootstrapClient from "./components/BootstrapClient";
+// import "@fontsource/inter";
 
 const inter = Inter({ subsets: ["latin"] });
 

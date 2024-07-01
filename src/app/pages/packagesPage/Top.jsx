@@ -1,74 +1,21 @@
 import React from "react";
-import styled from "styled-components";
-import { Col_2, Row } from "../../styledComponents/Containers";
-
-const LeftContainer = styled(Col_2)`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  @media screen and (max-width: 800px) {
-    flex-basis: 100%;
-    width: 100%;
-    order: 2;
-  }
-`;
-const StyledImage = styled.img`
-  width: 100%;
-  height: 60vh;
-  object-fit: cover;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 30px;
-  @media screen and (max-width: 800px) {
-    flex-basis: 100%;
-    width: 100%;
-    height: 550px;
-  }
-`;
-const RightContainer = styled(Col_2)`
-  padding-right: 16px;
-  @media screen and (max-width: 800px) {
-    flex-basis: 100%;
-    width: 100%;
-    order: 1;
-    padding: 1em;
-  }
-`;
-const Text = styled.p`
-  font-size: 1.2em;
-  font-style: italic;
-  @media screen and (max-width: 800px) {
-    // padding: 0 0 2em 0;
-    font-size: 1em;
-  }
-`;
-const Heading = styled.p`
-  font-size: 2em;
-  @media screen and (max-width: 800px) {
-    padding: 1em 0 0 0;
-    font-size: 2em;
-  }
-`;
-const ContentContainer = styled.div`
-  width: 70%;
-`;
-const StyledRow = styled(Row)`
-  padding-bottom: 1em;
-`;
 
 const Top = ({ data }) => {
   return (
-    <StyledRow>
-      <LeftContainer>
-        <ContentContainer>
-          <Heading>{data.heading}</Heading>
-          <Text>{data.subHeading}</Text>
-        </ContentContainer>
-      </LeftContainer>
-      <RightContainer>
-        <StyledImage src={data.subImage} />
-      </RightContainer>
-    </StyledRow>
+    <div className="flex flex-wrap pb-4">
+      <div className="cm800:basis-1/2 basis-full flex flex-col justify-center items-center cm800:order-1 cmMobile:order-2 w-full ">
+        <div className="w-[70%]">
+          <p className="text-2em cm800:pt-0 cmMobile:pt-4">{data.heading}</p>
+          <p className="italic cmMobile:text-1em cm800:text-lg">{data.subHeading}</p>
+        </div>
+      </div>
+      <div className="cmMobile:basis-full cm800:basis-1/2 pr-4 w-full order-1 p-4 cm800:p-0">
+        <img
+          className="cmMobile:h-[550px] w-full cmMobile:basis-full rounded-3xl shadow-custom object-cover h-[60vh]"
+          src={data.subImage}
+        />
+      </div>
+    </div>
   );
 };
 

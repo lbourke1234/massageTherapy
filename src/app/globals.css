@@ -28,7 +28,7 @@ body {
     text-wrap: balance;
   }
 }
-ul {
+/* ul {
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -38,10 +38,11 @@ ul {
   padding-inline-start: 40px;
   unicode-bidi: isolate;
 }
+  */
 p {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  /* margin-block-start: 1em; */
+  margin-block-end: 1rem;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;

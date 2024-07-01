@@ -1,23 +1,13 @@
-"use client";
-
 import React from "react";
-import styled from "styled-components";
-import { ContainerFluid } from "../../styledComponents/Containers";
-
-const StyledContainer = styled(ContainerFluid)`
-  height: 70vh;
-  // background: #477e81;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("resources/Marta_Osteopath-403.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-`;
 
 const Banner = () => {
-  return <StyledContainer />;
+  return (
+    <div
+      className="
+  flex flex-col h-[70vh] justify-center items-center bg-center bg-no-repeat bg-cover"
+      style={{ backgroundImage: 'url("resources/Marta_Osteopath-403.jpg")' }}
+    />
+  );
 };
 
 export default Banner;

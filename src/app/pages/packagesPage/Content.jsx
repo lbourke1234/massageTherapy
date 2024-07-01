@@ -1,44 +1,30 @@
-"use client";
+// "use client";
 
 import React from "react";
-import styled from "styled-components";
 import Top from "./Top";
 import HowDoesItWork from "./HowDoesItWork";
 import Benefits from "./Benefits";
 import WhoCanBenefit from "./WhoCanBenefit";
 import Link from "next/link";
-import {
-  Button,
-  ButtonContainer,
-  Container,
-  Heading,
-  LastMinuteButton,
-  LastMinuteContainer,
-} from "./SContent";
-// import { useNavigate } from "react-router-dom";
+import ProductExternalButton from "./ProductExternalButton";
 
 const Content = ({ data }) => {
-  // const navigate = useNavigate();
-  function goToExternalSite() {
-    window.open("https://marta-suchanska.uk2.cliniko.com/bookings", "_blank");
-  }
-  const handleClick = () => {
-    // navigate("/#services");
-  };
   return (
-    <Container key={data.key}>
-      <ButtonContainer>
-        <Button href={"/#services"}>Back</Button>
-      </ButtonContainer>
-      <Heading>{data.name}</Heading>
+    <div className="m-auto text-black" key={data.key}>
+      <Link href={"/#services"}>
+        <div className="flex cmMobile:justify-end cm1050:justify-start p-4">
+          <button className="py-[0.7rem] px-[2.75rem] border-2 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl mt-4 transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
+            Back
+          </button>
+        </div>
+      </Link>
+      <h2 className="cmMobile:p-0 pb-4 text-2em text-center">{data.name}</h2>
       <Top data={data} />
       <HowDoesItWork data={data} />
       <Benefits data={data} />
       <WhoCanBenefit data={data} />
-      <LastMinuteContainer key={data.key}>
-        <LastMinuteButton onClick={() => goToExternalSite()}>Book Now!</LastMinuteButton>
-      </LastMinuteContainer>
-    </Container>
+      <ProductExternalButton data={data} />
+    </div>
   );
 };
 

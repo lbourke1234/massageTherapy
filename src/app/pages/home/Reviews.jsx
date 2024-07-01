@@ -1,27 +1,24 @@
-"use client";
-
 import React from "react";
 import ReviewCard from "../../components/ReviewCard";
-import { Col_3, Container, ContainerFluid, Row } from "../../styledComponents/Containers";
-import styled from "styled-components";
 import { testimonialData } from "../../data/testimonialData";
-import { mainCream } from "../../styledComponents/globalStyles";
-import { Column, Heading, StyledContainer, StyledContainerFluid } from "./SReviews";
 
 const Reviews = () => {
   return (
-    <StyledContainerFluid>
-      <StyledContainer>
-        <Heading>Testimonials</Heading>
-        <Row>
+    <div className="flex flex-col bg-[#EFEBE0]">
+      <div className="flex flex-col w-[90%] m-auto py-8">
+        <h4 className="text-black text-center text-2em font-medium">Testimonials</h4>
+        <div className="flex flex-wrap">
           {testimonialData.map((review, key) => (
-            <Column key={key}>
+            <div
+              className="cmMobile:basis-full cmMobile:m-0 cm900:mx-20 cm1300:m-0  cm1300:basis-1/3"
+              key={key}
+            >
               <ReviewCard name={review.name} location={review.subHeading} text={review.text} />
-            </Column>
+            </div>
           ))}
-        </Row>
-      </StyledContainer>
-    </StyledContainerFluid>
+        </div>
+      </div>
+    </div>
   );
 };
 

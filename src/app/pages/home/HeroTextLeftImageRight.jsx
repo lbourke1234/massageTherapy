@@ -1,44 +1,30 @@
-"use client";
-
 import React from "react";
-import dynamic from "next/dynamic";
-import {
-  Heading,
-  ImageCol,
-  InnerContainer,
-  Row,
-  StyledCol,
-  StyledContainer,
-  StyledImage,
-  SubHeading,
-} from "./SHeroTextLeftImageRight";
-
-// Dynamically import the client-side button component
-const ExternalClientButton = dynamic(() => import("./components/ExternalClientButton"), {
-  ssr: false,
-});
+import ExternalClientButton from "./components/ExternalClientButton";
 
 const HeroTextLeftImageRight = () => {
   return (
-    <StyledContainer>
-      <Row>
-        <StyledCol>
-          <InnerContainer>
-            <Heading>MASSAGE THERAPY AND NUTRITIONAL ADVICE TAILORED TO YOUR NEEDS</Heading>
-            <SubHeading>
+    <div className="flex flex-col bg-[#EFEBE0]">
+      <div className="flex flex-wrap">
+        <div className="cm1050:h-screen cm1050:basis-1/2 flex basis-full cmMobile:order-2 cm1050:order-1">
+          <div className="flex flex-col w-[90%] m-auto cm1050:pt-44 cmMobile:pb-4 cm1050:px-8 ">
+            <h1 className="cmMobile:text-2em cm600:text-3em text-black font-medium">
+              MASSAGE THERAPY AND NUTRITIONAL ADVICE TAILORED TO YOUR NEEDS
+            </h1>
+            <h2 className="text-black text-2xl">
               A Central London clinic offering a personalised approach to health
-            </SubHeading>
+            </h2>
             <ExternalClientButton />
-          </InnerContainer>
-        </StyledCol>
-        <ImageCol>
-          <StyledImage
+          </div>
+        </div>
+        <div className="cmMobile:p-4 cm1050:p-0 cm1050:basis-1/2 basis-full cm1050:h-screen order-1 cm1050:order-2 cm992:mt-0 cmMobile:mt-14">
+          <img
+            className=" cmMobile:object-[-130px] cm450:object-[0px] bg-[#fffbf7] cmMobile:h-[500px] cm800:h-full cmMobile:rounded-3xl cm1050:rounded-none object-cover shadow-custom cm1050:object-[-210px]"
             src="resources/Marta_Osteopath-20.jpg"
             alt="Marta Suchanska, massage therapist based in London"
           />
-        </ImageCol>
-      </Row>
-    </StyledContainer>
+        </div>
+      </div>
+    </div>
   );
 };
 

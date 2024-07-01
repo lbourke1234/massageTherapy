@@ -1,44 +1,35 @@
-"use client";
-
 import React from "react";
-import styled from "styled-components";
 import Space from "../about/Space";
 import ContactInfo from "../contactInfo/ContactInfo";
 import Navbar from "../../components/nav/Navbar";
 import Link from "next/link";
-import {
-  Button,
-  Container,
-  ContentContainer,
-  Image,
-  ListItem,
-  SubHeading,
-  Text,
-} from "./SBespokeMassageTreatment";
+import BespokeButton from "./BespokeButton";
 
 const BespokeMassageTreatment = () => {
-  function goToExternalSite() {
-    window.open("https://marta-suchanska.uk2.cliniko.com/bookings", "_blank");
-  }
   return (
     <>
       <Navbar />
       <Space />
-      <Container>
-        <Image src="/resources/massage blog.jpg" />
+      <div className="w-[95%] cm800:w-[70%] text-black m-auto">
+        <img
+          className="h-[50vh] w-full object-cover rounded-3xl"
+          src="/resources/massage blog.jpg"
+        />
         <Link href={"/blog"}>
-          <Button>Back</Button>
+          <button className="py-[0.7rem] px-[2.75rem] border-2 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl mt-4 transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
+            Back
+          </button>
         </Link>
-        <ContentContainer>
-          <SubHeading>
+        <div className="pt-4">
+          <h3 className="text-2xl cm800:text-4xl font-semibold pb-2">
             {`Why is bespoke treatment a better option than the regular massage experience?`}
-          </SubHeading>
-          <Text>
+          </h3>
+          <p className="cm800:text-xl">
             {`I believe in a holistic approach to health; I believe that no part of our body functions
             in isolation from the rest. I believe that everyone is unique and what is right for me
             may not necessarily suit you. I apply this principle in every area of my life.`}
-          </Text>
-          <Text>
+          </p>
+          <p className="cm800:text-xl">
             {`Moreover, most of the time, my clients ask for a “mix”, a massage that will be a
             combination of several techniques, they often do not know what type of massage is right
             for them, or they are worried that one type of massage is not the answer to how they
@@ -46,81 +37,81 @@ const BespokeMassageTreatment = () => {
             what they need. I think the beauty of manual therapy is that with the right knowledge,
             you can build a treatment dedicated to a given person, prepared to address all the
             client's needs.`}
-          </Text>
-          <Text>
+          </p>
+          <p className="cm800:text-xl">
             {`We live in a time when we have access to everything, we can design virtually everything
             according to our needs, so why not design a massage treatment. Why not take advantage of
             the knowledge, the research we have access to, which clearly shows that lumping everyone
             in the same bag and assuming that two completely different people will be happy with the
             same solution no longer makes sense.`}
-          </Text>
-          <Text>
+          </p>
+          <p className="cm800:text-xl">
             {`The treatments I offer are the result of over 12 years of training, work, research. I am
             constantly improving my knowledge, I am currently studying osteopathy and naturopathy at
             British College of Osteopathic Medicine, and I sometimes joke that I will never stop
             learning because new research is being produced all the time, certain concepts are being
             debunked and new methods are being developed.`}
-          </Text>
-          <SubHeading>How does it work?</SubHeading>
-          <Text>
+          </p>
+          <h3 className="text-2xl cm800:text-4xl font-semibold pb-2">How does it work?</h3>
+          <p className="cm800:text-xl">
             {`Before the treatment, we will discuss what your needs are, what your body will benefit
             from most, which areas need special attention. We will discuss contraindications,
             pressure. We will decide which techniques will be suitable for you.`}
-          </Text>
-          <Text>
+          </p>
+          <p className="cm800:text-xl">
             There is a wide variety of massage techniques, so why restrict yourself to just one?{" "}
-          </Text>
-          <SubHeading>And why is having a massage actually a good idea?</SubHeading>
-          <Text>
+          </p>
+          <h3 className="text-2xl cm800:text-4xl font-semibold pb-2">
+            And why is having a massage actually a good idea?
+          </h3>
+          <p className="cm800:text-xl">
             {`Maybe the first question should be that one. Still, a lot of people believe that
             massages are unnecessary; some even refer to them as luxury goods. In my opinion,
             massage treatments are just as essential as a good quality meal or good night's rest,
             and I cannot imagine life without them.`}
-          </Text>
-          <SubHeading>And what techniques do I use?</SubHeading>
-          <Text>
+          </p>
+          <h3 className="text-2xl cm800:text-4xl font-semibold pb-2">
+            And what techniques do I use?
+          </h3>
+          <p className="cm800:text-xl">
             {`I am a certified therapist in relaxing/holistic, Swedish/classic, deep tissue, soft
             tissue, sports and recovery, manual lymphatic drainage, myofascial release, trigger
             point therapy, pregnancy, joint and visceral manipulation, muscle energy techniques, dry
             needling, and kinesiology taping treatments.`}{" "}
-          </Text>
-          <SubHeading>
+          </p>
+          <h3 className="text-2xl cm800:text-4xl font-semibold pb-2">
             {`Let's explore a few of the benefits of a massage treatment (I cannot list them all):`}
-          </SubHeading>
-          <ul>
-            <ListItem>Releases muscle pain and stiffness</ListItem>
-            <ListItem>Improves circulation</ListItem>
-            <ListItem>Speeds up healing of muscle injuries</ListItem>
-            <ListItem>Restores the range of motion</ListItem>
-            <ListItem>Provides deep relaxation</ListItem>
-            <ListItem>Minimises a risk of sport related injuries</ListItem>
-            <ListItem>Improves flexibility</ListItem>
-            <ListItem>Boosts immunity</ListItem>
-            <ListItem>Improves mood</ListItem>
-            <ListItem>Reduces stress</ListItem>
-            <ListItem>Increases the level of positive hormones</ListItem>
-            <ListItem>Improves sleep</ListItem>
-            <ListItem>Reduces swelling</ListItem>
-            <ListItem>Removes toxins.</ListItem>
+          </h3>
+          <ul className="list-disc ml-8 pb-4">
+            <li className="cm800:text-xl">Releases muscle pain and stiffness</li>
+            <li className="cm800:text-xl">Improves circulation</li>
+            <li className="cm800:text-xl">Speeds up healing of muscle injuries</li>
+            <li className="cm800:text-xl">Restores the range of motion</li>
+            <li className="cm800:text-xl">Provides deep relaxation</li>
+            <li className="cm800:text-xl">Minimises a risk of sport related injuries</li>
+            <li className="cm800:text-xl">Improves flexibility</li>
+            <li className="cm800:text-xl">Boosts immunity</li>
+            <li className="cm800:text-xl">Improves mood</li>
+            <li className="cm800:text-xl">Reduces stress</li>
+            <li className="cm800:text-xl">Increases the level of positive hormones</li>
+            <li className="cm800:text-xl">Improves sleep</li>
+            <li className="cm800:text-xl">Reduces swelling</li>
+            <li className="cm800:text-xl">Removes toxins.</li>
           </ul>
-          <SubHeading>Do you still have any doubts that massage is worth trying?</SubHeading>
-          <Text>
+          <h3 className="text-2xl cm800:text-4xl font-semibold pb-2">
+            Do you still have any doubts that massage is worth trying?
+          </h3>
+          <p className="cm800:text-xl">
             Ps. If you do not like a bespoke massage idea, and you would like to book your
             favourite, regular massage treatment I am happy to provide it. As I mentioned before, I
             do understand we all might have different needs, and I am not going to try to convince
             you that my approach is better.
-          </Text>
-          <Text>Seen you soon!</Text>
-          <Text>Marta</Text>
-          {/* <Button
-            onClick={() =>
-              window.open("https://marta-suchanska.uk2.cliniko.com/bookings", "_blank")
-            }
-          >
-            Book Now!
-          </Button> */}
-        </ContentContainer>
-      </Container>
+          </p>
+          <p className="cm800:text-xl">Seen you soon!</p>
+          <p className="cm800:text-xl">Marta</p>
+          <BespokeButton />
+        </div>
+      </div>
       <ContactInfo />
     </>
   );

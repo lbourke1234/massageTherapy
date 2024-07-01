@@ -1,68 +1,32 @@
-"use client";
-
 import React from "react";
-import styled from "styled-components";
-import { mainBackground, mainCream } from "../../styledComponents/globalStyles";
-
-const Text = styled.p`
-  font-size: 1.2em;
-  @media screen and (max-width: 800px) {
-    font-size: 1em;
-  }
-`;
-const Heading = styled.p`
-  font-size: 2em;
-  @media screen and (max-width: 800px) {
-    font-size: 1.5em;
-  }
-`;
-
-const Container = styled.div`
-  // height: 40vh;
-  //   width: 70%;
-  padding-top: 1em;
-  margin: auto;
-  background: ${mainCream};
-  color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  @media screen and (max-width: 543px) {
-    padding: 2em 0;
-    height: auto;
-  }
-`;
-const ContentContainer = styled.div`
-  width: 70%;
-  @media screen and (max-width: 800px) {
-    width: 90%;
-  }
-`;
 
 const WhoCanBenefit = ({ data }) => {
   return (
-    <Container key={data.key}>
-      <ContentContainer>
-        <Heading>Who can benefit from it?</Heading>
-        {/* {data.whoCanBenefit.map((bullet) => (
-          <Text>{bullet}</Text>
-        ))} */}
+    <div
+      className=" cmMobile:py-8 m-auto bg-[#EFEBE0] text-black flex flex-col justify-center items-center"
+      key={data.key}
+    >
+      <div className="cmMobile:w-[90%] cm800:w-[70%]">
+        <p className="cmMobile:text-2xl cm800:text-2em">Who can benefit from it?</p>
         {data.whoCanBenefit.map((bullet, inx) => {
           const index = bullet.indexOf("Happy guts package");
           if (index !== -1) {
             return (
-              <Text key={inx}>
+              <p className="cmMobile:text-1em cm800:text-xl" key={inx}>
                 {bullet.substring(0, index)}
                 <strong>Happy guts package</strong>
                 {bullet.substring(index + "Happy guts package".length)}
-              </Text>
+              </p>
             );
           }
-          return <Text key={inx}>{bullet}</Text>;
+          return (
+            <p className="cmMobile:text-1em cm800:text-xl" key={inx}>
+              {bullet}
+            </p>
+          );
         })}
-      </ContentContainer>
-    </Container>
+      </div>
+    </div>
   );
 };
 

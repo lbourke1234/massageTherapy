@@ -1,31 +1,28 @@
 import React from "react";
 import { packageData } from "../../data/treatmentData";
-import {
-  Container,
-  ContentContainer,
-  Heading,
-  PackageHeading,
-  SubHeading,
-  Text,
-} from "./SHowDoesItWork";
 
 const HowDoesItWork = ({ data }) => {
   return (
-    <Container key={data.key}>
-      <ContentContainer>
-        <Heading>How does it work?</Heading>
-        <SubHeading>
+    <div
+      className="h-full bg-[#EFEBE0] text-black flex flex-col justify-center items-center py-4"
+      key={data.key}
+    >
+      <div className="cmMobile:w-[90%] cm800:w-[70%]">
+        <p className="cmMobile:text-2xl cm800:text-2em mb-4">How does it work?</p>
+        <p className="cmMobile:text-1em cm800:text-xl mb-4">
           I created Packages to help you get the most out of your personal experience. Each bundle
           combines massage therapy with another tool to enhance the many benefits of your session.
-        </SubHeading>
+        </p>
         {packageData.map((data, index) => (
           <div key={index}>
-            <PackageHeading>{data.heading}</PackageHeading>
-            <Text>{data.text}</Text>
+            <p className="cmMobile:underline cm800:no-underline cmMobile:text-1em cm800:text-2xl font-semibold">
+              {data.heading}
+            </p>
+            <p className="cmMobile:text-1em cm800:text-xl">{data.text}</p>
           </div>
         ))}
-      </ContentContainer>
-    </Container>
+      </div>
+    </div>
   );
 };
 

@@ -1,68 +1,52 @@
-"use client";
+// "use client";
 
 import React from "react";
-import { MassageLogo } from "../../styledComponents/components";
-import {
-  ContactContainer,
-  Container,
-  Copyright,
-  Instagram,
-  LinkedIn,
-  ListElement,
-  ListHeading,
-  MainContainer,
-  Phone,
-} from "./SContactInfo";
+
+import { GrInstagram, GrLinkedin, GrPhone } from "react-icons/gr";
+import ContactIcon from "./ContactIcon";
+import LinkedInIcon from "./LinkedInIcon";
+import InstagramIcon from "./InstagramIcon";
+// import Link from "next/link";
 
 const ContactInfo = () => {
   return (
     <>
-      <MainContainer>
-        <Container>
-          <ul>
-            <ListHeading>Location</ListHeading>
-            <ListElement>Light Centre Marylebone</ListElement>
-            <ListElement>Lower Ground</ListElement>
-            <ListElement>49 Marylebone High Street</ListElement>
-            <ListElement>London</ListElement>
-            <ListElement>W1U 5HJ</ListElement>
-          </ul>
-          <ul>
-            <ListHeading>Hours</ListHeading>
-            <ListElement>Monday 9am - 8pm</ListElement>
-            <ListElement>Tuesday 12pm - 8pm</ListElement>
-            <ListElement>Thursday 9am - 4pm</ListElement>
-            <ListElement>Friday 9am - 8pm</ListElement>
-          </ul>
-          <ul>
-            <ListHeading>Contact</ListHeading>
-            <ListElement>0750 2287 115 </ListElement>
-            <ListElement>marta@massagetherapy.london</ListElement>
-            <ListElement>
-              <div className="flex">
-                <Instagram
-                  onClick={() =>
-                    window.open("https://www.instagram.com/massagetherapy.london/", "_blank")
-                  }
-                />
-                <LinkedIn
-                  onClick={() =>
-                    window.open("https://www.linkedin.com/in/marta-suchanska-aa3301283", "_blank")
-                  }
-                />
-                <ContactContainer href="tel:07502287115">
-                  <Phone />
-                </ContactContainer>
-              </div>
-            </ListElement>
-            <ListElement></ListElement>
-            <ListElement></ListElement>
-          </ul>
-        </Container>
-      </MainContainer>
-      <Copyright>
-        Copyright ©2024 <MassageLogo>MɅSSɅGE</MassageLogo>
-      </Copyright>
+      <div className="flex flex-col cm800:flex-row pt-4 px-4 text-black justify-around">
+        <ul>
+          <li className="text-customYellow pb-6 text-[1.4em] list-none">Location</li>
+          <li className="list-none pb-4">Light Centre Marylebone</li>
+          <li className="list-none pb-4">Lower Ground</li>
+          <li className="list-none pb-4">49 Marylebone High Street</li>
+          <li className="list-none pb-4">London</li>
+          <li className="list-none pb-4">W1U 5HJ</li>
+        </ul>
+        <ul>
+          <li className="text-customYellow pb-6 text-[1.4em] list-none">Hours</li>
+          <li className="list-none pb-4">Monday 9am - 8pm</li>
+          <li className="list-none pb-4">Tuesday 12pm - 8pm</li>
+          <li className="list-none pb-4">Thursday 9am - 4pm</li>
+          <li className="list-none pb-4">Friday 9am - 8pm</li>
+        </ul>
+        <ul>
+          <li className="text-customYellow pb-6 text-[1.4em] list-none">Contact</li>
+          <li className="list-none pb-4">0750 2287 115 </li>
+          <li className="list-none pb-4">marta@massagetherapy.london</li>
+          <li className="list-none pb-4">
+            <div className="flex">
+              <InstagramIcon />
+              <LinkedInIcon />
+              <a className="text-black" href="tel:07502287115">
+                <ContactIcon />
+              </a>
+            </div>
+          </li>
+          <li className="list-none pb-4"></li>
+          <li className="list-none pb-4"></li>
+        </ul>
+      </div>
+      <p className="text-center pb-4 text-black">
+        Copyright ©2024 <span className="font-inter">MɅSSɅGE</span>
+      </p>
     </>
   );
 };
