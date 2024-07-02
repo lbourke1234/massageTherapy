@@ -1,5 +1,6 @@
 "use client";
 
+import { goToExternalSite } from "@/app/utils/helper";
 import React from "react";
 
 const ExternalClientButton = () => {

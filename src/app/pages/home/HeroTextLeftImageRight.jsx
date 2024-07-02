@@ -6,7 +6,7 @@ const HeroTextLeftImageRight = () => {
     <div className="flex flex-col bg-[#EFEBE0]">
       <div className="flex flex-wrap">
         <div className="cm1050:h-screen cm1050:basis-1/2 flex basis-full cmMobile:order-2 cm1050:order-1">
-          <div className="flex flex-col w-[90%] m-auto cm1050:pt-44 cmMobile:pb-4 cm1050:px-8 ">
+          <div className="flex flex-col w-[90%] m-auto cm1050:pt-44 cmMobile:pb-8 cmMobile:pt-6 cm1050:px-8 ">
             <h1 className="cmMobile:text-2em cm600:text-3em text-black font-medium">
               MASSAGE THERAPY AND NUTRITIONAL ADVICE TAILORED TO YOUR NEEDS
             </h1>

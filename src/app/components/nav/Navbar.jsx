@@ -2,21 +2,9 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import Logo from "../Logo";
-import { Row } from "../../styledComponents/Containers";
 import MobileLogo from "../reuse/MobileLogo";
 import Link from "next/link";
-import {
-  IconsContainer,
-  MobileLogoContainer,
-  NavContent,
-  NavbarContainer,
-  StyledExtraButton,
-  StyledExtraButtonMobile,
-  StyledNav,
-  Text,
-  MobileMainContainer,
-  HamburgerMenuStyled,
-} from "./SNavbar";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(true);
@@ -71,60 +59,85 @@ const Navbar = () => {
   }, []);
 
   return (
-    <StyledNav top={visible ? 0 : -320} className="navbar navbar-expand-lg fixed-top">
+    <div
+      style={{ top: visible ? "0" : "-360px" }}
+      className="navbar navbar-expand-lg fixed-top bg-navbarColor fixed transition-all duration-300 ease-in-out w-full"
+    >
       <div className="container-fluid" style={{ top: "0px" }}>
-        <NavContent>
-          <MobileMainContainer>
+        <div className="w-[94%] m-auto">
+          <div className="flex justify-between items-center w-full">
             <div ref={hamburgerRef} onClick={(e) => handleToggleNavbar(e)}>
-              <HamburgerMenuStyled />
+              <GiHamburgerMenu className="cm991:hidden text-2xl cursor-pointer cmMobile:inline-block" />
             </div>
             <Link href={"/"}>
-              <MobileLogoContainer>
+              <div className="cmMobile:inline-block cm991:hidden">
                 <MobileLogo />
-              </MobileLogoContainer>
+              </div>
             </Link>
-            <StyledExtraButtonMobile onClick={() => goToExternalSite()}>
+            <button
+              className="cm320:inline-block cmMobile:hidden cm991:hidden py-[0.2rem] px-[1rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105"
+              onClick={() => goToExternalSite()}
+            >
               Book Now!
-            </StyledExtraButtonMobile>
-          </MobileMainContainer>
-          <NavbarContainer
-            showMenu={showMenu}
+            </button>
+          </div>
+          <div
+            // showmenu={showMenu}
             ref={navbarRef}
-            className={`navbar-collapse text-white`}
+            className={`${
+              showMenu ? "flex" : "hidden"
+            } navbar-collapse text-white w-full cmMobile:items-start cm991:items-center cmMobile:flex-col cm991:flex-row cmMobile:h-auto cm991:h-32 justify-between`}
             id="navbarNav"
           >
-            <Row>
+            <div className="flex flex-wrap">
               <ul className="navbar-nav align-items-center">
                 <Link href={"/"} className="nav-item">
-                  <Text className="nav-link cursor text-white">Home</Text>
+                  <li className="nav-link cursor text-white hover:underline hover:cursor-pointer mx-2 font-normal">
+                    Home
+                  </li>
                 </Link>
                 <Link href={"/about"} className="nav-item">
-                  <Text className="nav-link cursor text-white">About</Text>
+                  <li className="nav-link cursor text-white hover:underline hover:cursor-pointer mx-2 font-normal">
+                    About
+                  </li>
                 </Link>
                 <Link href={"/pricing"} className="nav-item">
-                  <Text className="nav-link cursor text-white">Pricing</Text>
+                  <li className="nav-link cursor text-white hover:underline hover:cursor-pointer mx-2 font-normal">
+                    Pricing
+                  </li>
                 </Link>
                 <Link href={"/#services"} className="nav-item">
-                  <Text className="nav-link cursor text-white">Services</Text>
+                  <li className="nav-link cursor text-white hover:underline hover:cursor-pointer mx-2 font-normal">
+                    Services
+                  </li>
                 </Link>
                 <Link href={"/blog"} className="nav-item">
-                  <Text className="nav-link cursor text-white">Blog</Text>
+                  <li className="nav-link cursor text-white hover:underline hover:cursor-pointer mx-2 font-normal">
+                    Blog
+                  </li>
                 </Link>
                 <Link href={"/#contact"} className="nav-item">
-                  <Text className="nav-link cursor text-white">Contact</Text>
+                  <li className="nav-link cursor text-white hover:underline hover:cursor-pointer mx-2 font-normal">
+                    Contact
+                  </li>
                 </Link>
               </ul>
-            </Row>
+            </div>
             <Link href={"/"}>
-              <IconsContainer>
+              <div className="cmMobile:m-0 max-cm1230:mr-[20em] cmMobile:hidden cm991:block">
                 <Logo />
-              </IconsContainer>
+              </div>
             </Link>
-            <StyledExtraButton onClick={() => goToExternalSite()}>Book Now!</StyledExtraButton>
-          </NavbarContainer>
-        </NavContent>
+            <button
+              className="py-[0.7rem] px-[1.75rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105"
+              onClick={() => goToExternalSite()}
+            >
+              Book Now!
+            </button>
+          </div>
+        </div>
       </div>
-    </StyledNav>
+    </div>
   );
 };
 

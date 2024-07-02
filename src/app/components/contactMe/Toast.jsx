@@ -1,15 +1,7 @@
 import React from "react";
-import styled from "styled-components";
-
-const Text = styled.p`
-  font-size: 2em;
-  text-align: center;
-  padding: 0.2em;
-  color: #0ae061;
-`;
 
 const Toast = ({ message }) => {
-  return <Text>{message}</Text>;
+  return <p className="text-2em text-center p-[0.2em] text-[#0ae061]">{message}</p>;
 };
 
 export default Toast;

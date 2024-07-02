@@ -12,13 +12,15 @@ const Content = ({ data }) => {
   return (
     <div className="m-auto text-black" key={data.key}>
       <Link href={"/#services"}>
-        <div className="flex cmMobile:justify-end cm1050:justify-start p-4">
-          <button className="py-[0.7rem] px-[2.75rem] border-2 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl mt-4 transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
+        <div className="cm992:absolute cmMobile:flex top-[150px] left-0 cmMobile:justify-end cm1050:justify-start px-4">
+          <button className="py-[0.7rem] px-[2.75rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
             Back
           </button>
         </div>
       </Link>
-      <h2 className="cmMobile:p-0 pb-4 text-2em text-center">{data.name}</h2>
+      <h2 className="cmMobile:p-0 pb-2 cm800:text-2em cmMobile:text-2xl text-center">
+        {data.name}
+      </h2>
       <Top data={data} />
       <HowDoesItWork data={data} />
       <Benefits data={data} />

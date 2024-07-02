@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         customYellow: "rgb(253, 180, 42)",
         blackOpacity20: "rgba(0, 0, 0, 0.2)",
+        navbarColor: "rgba(0, 0, 0, 0.4)",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

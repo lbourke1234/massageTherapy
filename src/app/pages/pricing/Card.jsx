@@ -10,14 +10,16 @@ const Card = ({ data }) => {
       <div>
         <div className="w-auto flex justify-center">
           <img
-            className="cmMobile:h-[200px] cmMobile:w-[200px] cm500:w-[300px] cm500:h-[300px] cm800:h[450px] cm800:w[450px] object-cover shadow-custom rounded-lg"
+            className="cmMobile:h-[250px] cmMobile:w-[250px] cm500:w-[300px] cm500:h-[300px] cm800:h-[450px] cm800:w-[450px] object-cover shadow-custom rounded-lg"
             src={data.src}
           />
         </div>
-        <h2 className="font-medium pt-4 text-2xl pb-2">{data.heading}</h2>
-        {data.bullets.map((bullet, index) => {
-          return <p key={index}>{bullet}</p>;
-        })}
+        <div className=" cmMobile:w-[250px] cm500:w-[300px]  cm800:w-[450px]">
+          <h2 className="font-medium pt-4 text-2xl pb-2">{data.heading}</h2>
+          {data.bullets.map((bullet, index) => {
+            return <p key={index}>{bullet}</p>;
+          })}
+        </div>
       </div>
       <PricingButton />
       <hr className="cmMobile:w-[10em] cm500:w-[15em] cmMobile:block cm1050:hidden mt-4 mx-auto cm1050:w-[27em]" />
