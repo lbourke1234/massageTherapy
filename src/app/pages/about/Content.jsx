@@ -1,6 +1,7 @@
 import React from "react";
 import TextColumn from "./TextColumn";
 import Image from "next/image";
+import Picture from "/public/resources/Marta_Osteopath-205.jpg";
 
 const Content = () => {
   return (
@@ -9,11 +10,12 @@ const Content = () => {
         <div className="m-auto cm1050:m-0 basis-2/5 flex">
           <Image
             className="cm470:h[400px] h-auto w-full object-cover rounded-3xl shadow-custom"
-            src="/resources/Marta_Osteopath-205.jpg"
+            src={Picture}
             alt="Marta giving a back massage "
             height={1380}
             width={921}
             sizes="(min-width: 480px) 35.99vw, 90vw"
+            placeholder="blur"
           />
         </div>
         <TextColumn />
