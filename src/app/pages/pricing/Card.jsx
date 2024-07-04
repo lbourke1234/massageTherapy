@@ -1,5 +1,6 @@
 import React from "react";
 import PricingButton from "./PricingButton";
+import Image from "next/image";
 
 const Card = ({ data }) => {
   function goToExternalSite() {
@@ -9,9 +10,13 @@ const Card = ({ data }) => {
     <div className="cmMobile:basis-full cm1050:basis-1/2 pr-6 pb-6 pl-6 rounded-2xl flex flex-col items-center justify-between">
       <div>
         <div className="w-auto flex justify-center">
-          <img
+          <Image
             className="cmMobile:h-[250px] cmMobile:w-[250px] cm500:w-[300px] cm500:h-[300px] cm800:h-[450px] cm800:w-[450px] object-cover shadow-custom rounded-lg"
             src={data.src}
+            width={450}
+            height={450}
+            sizes="(min-width: 800px) 450px, (min-width: 500px) 300px, 250px"
+            placeholder="blur"
           />
         </div>
         <div className=" cmMobile:w-[250px] cm500:w-[300px]  cm800:w-[450px]">

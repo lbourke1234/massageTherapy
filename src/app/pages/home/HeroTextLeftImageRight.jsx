@@ -1,5 +1,7 @@
 import React from "react";
 import ExternalClientButton from "./components/ExternalClientButton";
+import Image from "next/image";
+import martaImage from "/public/resources/Marta_Osteopath-20.jpg";
 
 const HeroTextLeftImageRight = () => {
   return (
@@ -17,10 +19,14 @@ const HeroTextLeftImageRight = () => {
           </div>
         </div>
         <div className="cmMobile:p-4 cm1050:p-0 cm1050:basis-1/2 basis-full cm1050:h-screen order-1 cm1050:order-2 cm992:mt-0 cmMobile:mt-14">
-          <img
-            className=" cmMobile:object-[-130px] cm450:object-[0px] bg-[#fffbf7] cmMobile:h-[500px] cm800:h-full cmMobile:rounded-3xl cm1050:rounded-none object-cover shadow-custom cm1050:object-[-210px]"
-            src="resources/Marta_Osteopath-20.jpg"
+          <Image
+            className=" cmMobile:object-[-130px] cm450:object-[0px] cmMobile:h-[500px] cm800:h-full cmMobile:rounded-3xl cm1050:rounded-none object-cover cm1050:object-[-210px]"
+            src={martaImage}
             alt="Marta Suchanska, massage therapist based in London"
+            width={1294}
+            height={1280}
+            sizes="(min-width: 2660px) 1260px, (min-width: 1060px) calc(46.2vw + 40px), calc(100vw - 32px)"
+            placeholder="blur"
           />
         </div>
       </div>

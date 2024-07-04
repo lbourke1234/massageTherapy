@@ -4,6 +4,8 @@ import ContactInfo from "../contactInfo/ContactInfo";
 import Navbar from "../../components/nav/Navbar";
 import Link from "next/link";
 import BespokeButton from "./BespokeButton";
+import Image from "next/image";
+import Picture from "/public/resources/massage blog.jpg";
 
 const BespokeMassageTreatment = () => {
   return (
@@ -11,9 +13,13 @@ const BespokeMassageTreatment = () => {
       <Navbar />
       <Space />
       <div className="w-[95%] cm800:w-[70%] text-black m-auto">
-        <img
+        <Image
           className="h-[50vh] w-full object-cover rounded-3xl"
-          src="/resources/massage blog.jpg"
+          src={Picture}
+          height={647}
+          width={1792}
+          sizes="(min-width: 800px) 70vw, 95vw"
+          placeholder="blur"
         />
         <Link href={"/blog"}>
           <button className="py-[0.7rem] px-[2.75rem] border-2 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl mt-4 transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">

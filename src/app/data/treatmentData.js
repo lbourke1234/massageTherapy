@@ -1,8 +1,17 @@
+import mainBespoke from "/public/resources/Marta_Osteopath-359.jpg";
+import mainBuccal from "/public/resources/Marta_Osteopath-388.jpg";
+import mainNutrition from "/public/resources/Jar.jpeg";
+import mainPackage from "/public/resources/Marta_Osteopath-410.jpg";
+import subBespoke from "/public/resources/Marta_Osteopath-195.jpg";
+import subBuccal from "/public/resources/Marta_Osteopath-Buccal-Massage.jpg";
+import subNutrition from "/public/resources/nutrition-2.jpeg";
+import subPackage from "/public/resources/Marta_Osteopath-350.jpg";
+
 export const treatmentData = [
   {
     name: "Bespoke Massage Treatments",
-    mainImage: "resources/Marta_Osteopath-359.jpg",
-    subImage: "resources/Marta_Osteopath-195.jpg",
+    mainImage: mainBespoke,
+    subImage: subBespoke,
     mainImageAlt: "Marta massaging calf muslce",
     subImageAlt: "Back massage for improved posture",
     link: "/bespokeMassageTreatments",
@@ -28,8 +37,8 @@ export const treatmentData = [
   },
   {
     name: `Buccal Massage`,
-    mainImage: `resources/Marta_Osteopath-388.jpg`,
-    subImage: `resources/Marta_Osteopath-Buccal-Massage.jpg`,
+    mainImage: mainBuccal,
+    subImage: subBuccal,
     mainImageAlt: `Marta massaging a clients shoulder and back`,
     subImageAlt: `Calming and relaxing massage`,
     link: `/buccalMassage`,
@@ -56,8 +65,8 @@ export const treatmentData = [
   },
   {
     name: `Nutritional Advice`,
-    mainImage: `resources/Jar.jpeg`,
-    subImage: `resources/nutrition-2.jpeg`,
+    mainImage: mainNutrition,
+    subImage: subNutrition,
     mainImageAlt: `Avocado, eggs, fresh vegetables on a chopping board`,
     subImageAlt: `Healthy salad with nutritious ingredients`,
     link: `/nutritionalAdvice`,
@@ -84,8 +93,8 @@ export const treatmentData = [
   },
   {
     name: `Packages`,
-    mainImage: `resources/Marta_Osteopath-410.jpg`,
-    subImage: `resources/Marta_Osteopath-350.jpg`,
+    mainImage: mainPackage,
+    subImage: subPackage,
     mainImageAlt: `Marta massaging a clients shoulder and back`,
     subImageAlt: `Calming and relaxing massage`,
     link: `/packages`,

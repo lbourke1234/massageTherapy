@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Top = ({ data }) => {
@@ -12,9 +13,13 @@ const Top = ({ data }) => {
         </div>
       </div>
       <div className="cmMobile:basis-full cm800:basis-1/2 pr-4 w-full order-1 p-4 cm800:p-0">
-        <img
+        <Image
           className="cmMobile:h-[550px] w-full cmMobile:basis-full rounded-3xl shadow-custom object-cover h-[60vh]"
           src={data.subImage}
+          width={1248}
+          height={550}
+          sizes="(min-width: 800px) calc(50vw - 48px), calc(100vw - 48px)"
+          placeholder="blur"
         />
       </div>
     </div>

@@ -1,13 +1,18 @@
+import bespoke from "/public/resources/Marta_Osteopath-373.jpg";
+import nutritional from "/public/resources/Pancake.jpeg";
+import packages from "/public/resources/Marta_Osteopath-224.jpg";
+import buccal from "/public/resources/Marta_Osteopath-388.jpg";
+
 export const pricingData = {
   bespokeMassage: {
     heading: `Bespoke Massage Treatment`,
     bullets: [`30 min - £70`, `60min - £115`, `90min - £155`],
-    src: `resources/Marta_Osteopath-373.jpg`,
+    src: bespoke,
   },
   nutritionalAdvice: {
     heading: `Nutritional Advice`,
     bullets: [`Initial consultation - £155`, `Follow up - £115`],
-    src: `resources/Pancake.jpeg`,
+    src: nutritional,
   },
   packages: {
     heading: `Packages`,
@@ -17,11 +22,11 @@ export const pricingData = {
       `Move without pain - £180 (90min), £220 (120min)`,
       `VIP - price based on the picked options.`,
     ],
-    src: `resources/Marta_Osteopath-224.jpg`,
+    src: packages,
   },
   buccalMassage: {
     heading: `Buccal Massage`,
     bullets: [`60min - £125`],
-    src: `resources/Marta_Osteopath-388.jpg`,
+    src: buccal,
   },
 };
