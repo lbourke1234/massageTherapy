@@ -63,7 +63,7 @@ const Navbar = () => {
       style={{ top: visible ? "0" : "-360px" }}
       className="navbar navbar-expand-lg fixed-top bg-navbarColor fixed transition-all duration-300 ease-in-out w-full"
     >
-      <div className="container-fluidm " style={{ top: "0px" }}>
+      <div className="container-fluid " style={{ top: "0px" }}>
         <div className="w-[94%] m-auto">
           <div className="flex justify-between items-center w-full">
             <div ref={hamburgerRef} onClick={(e) => handleToggleNavbar(e)}>
