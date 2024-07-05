@@ -82,7 +82,6 @@ const Navbar = () => {
             </button>
           </div>
           <div
-            // showmenu={showMenu}
             ref={navbarRef}
             className={`${
               showMenu ? "flex" : "hidden"
@@ -124,7 +123,7 @@ const Navbar = () => {
               </ul>
             </div>
             <Link href={"/"}>
-              <div className="cmMobile:m-0 max-cm1230:mr-[20em] cmMobile:hidden cm991:block">
+              <div className="cmMobile:mr-0 cm1230:mr-[20em] cmMobile:hidden cm991:block">
                 <Logo />
               </div>
             </Link>
