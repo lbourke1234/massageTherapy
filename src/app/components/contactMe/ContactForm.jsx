@@ -35,7 +35,9 @@ const ContactForm = () => {
             className="max-w-[80%] mx-auto cm700:py-8 cmMobile:py-0 cmMobile:pb-8"
             onSubmit={(e) => onSubmit(e)}
           >
-            <h5 className="cmMobile:text-2xl cm700:text-2em pb-4 text-center">Get in Touch</h5>
+            <h5 className="cmMobile:text-2xl cm700:text-2em pb-4 text-center font-medium">
+              Get in Touch
+            </h5>
             <div className="flex flex-wrap">
               <input
                 className="cmMobile:text-[0.8em] cm700:text-[0.9em] w-full p-[10px] mb-[20px] border-1 border-gray-300 rounded-md "

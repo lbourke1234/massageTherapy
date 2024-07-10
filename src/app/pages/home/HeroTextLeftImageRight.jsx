@@ -2,20 +2,65 @@ import React from "react";
 import ExternalClientButton from "./components/ExternalClientButton";
 import Image from "next/image";
 import martaImage from "/public/resources/Marta_Osteopath-20.jpg";
+import GoogleSVG from "./components/GoogleSVG";
+import FiveStarHero from "@/app/components/reuse/FiveStarHero";
+import TreatWellLogo from "/public/resources/Treatwell_idHx-s1Ql7_2.png";
+import GoogleSVGMobile from "./components/GoogleSVGMobile";
+import HeroButtonReverse from "./components/HeroButtonReverse";
+import HeroButtomMain from "./HeroButtomMain";
 
 const HeroTextLeftImageRight = () => {
   return (
     <div className="flex flex-col bg-[#EFEBE0]">
       <div className="flex flex-wrap">
         <div className="cm1050:h-screen cm1050:basis-1/2 flex basis-full cmMobile:order-2 cm1050:order-1">
-          <div className="flex flex-col w-[90%] m-auto cm1050:pt-44 cmMobile:pb-8 cmMobile:pt-6 cm1050:px-8 ">
-            <h1 className="cmMobile:text-2em cm600:text-3em text-black font-medium">
-              MASSAGE THERAPY AND NUTRITIONAL ADVICE TAILORED TO YOUR NEEDS
-            </h1>
-            <h2 className="text-black text-2xl">
-              A Central London clinic offering a personalised approach to health
-            </h2>
-            <ExternalClientButton />
+          <div className="flex flex-col w-[90%] m-auto cm1050:pt-44 cmMobile:pb-8 cmMobile:pt-6 cm1050:px-8">
+            <div className="">
+              <h1 className="cmMobile:text-2em cm600:text-3em text-black font-medium mb-2">
+                MASSAGE THERAPY AND NUTRITIONAL ADVICE TAILORED TO YOUR NEEDS
+              </h1>
+              <h2 className="text-black cmMobile:text-[1.5em] cm600:text-2xl font-medium">
+                A Central London clinic offering a personalised approach to health
+              </h2>
+              <div className="flex gap-4">
+                <HeroButtomMain />
+                <div className="cmMobile:hidden cm450:block">
+                  <HeroButtonReverse />
+                </div>
+              </div>
+            </div>
+            {/* bottom here */}
+            <div className="mt-4">
+              <div className="flex gap-12 items-center ">
+                <FiveStarHero />
+                <span className="text-black cm400:text-2xl cmMobile:mb-2 cm400:mb-0">
+                  168+ reviews
+                </span>
+              </div>
+              <div className="flex items-center gap-16 ">
+                <Image
+                  src={TreatWellLogo}
+                  alt="Treatwell Logo"
+                  height={150}
+                  width={150}
+                  className="cmMobile:mb-2 cm400:mb-0 cmMobile:hidden cm400:block "
+                />
+                <Image
+                  src={TreatWellLogo}
+                  alt="Treatwell Logo"
+                  height={110}
+                  width={110}
+                  className="cmMobile:mb-2 cm400:mb-0 cm400:hidden "
+                />
+                <div className="cmMobile:hidden cm400:block">
+                  <GoogleSVG />
+                </div>
+                <div className="cm400:hidden">
+                  <GoogleSVGMobile />
+                </div>
+              </div>
+            </div>
+            {/* bottom above */}
           </div>
         </div>
         <div className="cmMobile:p-4 cm1050:p-0 cm1050:basis-1/2 basis-full cm1050:h-screen order-1 cm1050:order-2 cm992:mt-0 cmMobile:mt-14">
@@ -27,6 +72,7 @@ const HeroTextLeftImageRight = () => {
             height={1280}
             sizes="(min-width: 2660px) 1260px, (min-width: 1060px) calc(46.2vw + 40px), calc(100vw - 32px)"
             placeholder="blur"
+            quality={100}
           />
         </div>
       </div>

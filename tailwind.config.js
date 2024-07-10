@@ -50,6 +50,7 @@ module.exports = {
         cm500: "500px",
         cm470: "470px",
         cm450: "450px",
+        cm440: "440px",
         cm400: "400px",
         cm331: "331px",
         cm320: "320px",

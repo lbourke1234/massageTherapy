@@ -30,7 +30,7 @@ const Content = () => {
           </div>
         </div>
         <div className="cm1000:h-full cm1000:basis-1/2 basis-full">
-          <div className="flex-col cm600:flex-row flex justify-center items-center w-[70%] m-auto">
+          <div className="flex-col cm600:flex-row flex justify-center items-center w-[70%] m-auto cmMobile:gap-4 cm600:gap-0">
             <img
               className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
               src="resources/logo1.jpeg"
@@ -39,6 +39,16 @@ const Content = () => {
             <img
               className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
               src="resources/logo2.jpeg"
+              alt="The Institute of Osteopathy Logo"
+            />
+            <img
+              className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
+              src="resources/fht-cert.jpg"
+              alt="The Institute of Osteopathy Logo"
+            />
+            <img
+              className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
+              src="resources/itec-cert.jpg"
               alt="The Institute of Osteopathy Logo"
             />
           </div>

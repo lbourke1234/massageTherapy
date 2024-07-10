@@ -26,11 +26,11 @@ const PreviewCard = ({ data }) => {
         <span className="cm1200:text-xl ml-1">{data.date}</span>
       </div>
       <Link href={data.link}>
-        <h2 className="text-2xl cm1200:text-4xl pb-1 pt-2 hover:cursor-pointer font-bold">
+        <h2 className="text-2xl cm1200:text-[2rem] pb-1 pt-2 hover:cursor-pointer font-semibold">
           {data.title}
         </h2>
       </Link>
-      <span>{data.preview}</span>
+      <span className="text-[1.3em]">{data.preview}</span>
     </div>
   );
 };

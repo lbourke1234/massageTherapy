@@ -18,7 +18,7 @@ const CardHeadingTextBtn = ({ heading, src, link, alt }) => {
           />
         </div>
         <div className="card-body text-center">
-          <h2 className="text-black pt-6 text-2xl">{heading}</h2>
+          <h2 className="text-black pt-6 text-2xl font-medium">{heading}</h2>
         </div>
         <hr className="cmMobile:w-[10em] cmMobile:block cm1050:hidden my-6 mx-auto w-[25em]" />
       </Link>

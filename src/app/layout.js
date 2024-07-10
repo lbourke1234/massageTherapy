@@ -1,13 +1,14 @@
 // app/layout.js or app/layout.tsx
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import StyledComponentsRegistry from "@/lib/StyledComponentsRegistry";
 import Script from "next/script";
 // import BootstrapClient from "./components/BootstrapClient";
 // import "@fontsource/inter";
 
 const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
 
 export const metadata = {
   title: "MɅSSɅGE",
@@ -69,7 +70,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={inter.className}>
+      <body className={roboto.className}>
         {/* <StyledComponentsRegistry>{children}</StyledComponentsRegistry> */}
         {children}
       </body>

@@ -11,15 +11,15 @@ const Card = ({ data }) => {
       <div>
         <div className="w-auto flex justify-center">
           <Image
-            className="cmMobile:h-[250px] cmMobile:w-[250px] cm500:w-[300px] cm500:h-[300px] cm800:h-[450px] cm800:w-[450px] object-cover shadow-custom rounded-lg"
+            className="cmMobile:h-[300px] cmMobile:w-[300px] cm500:w-[300px] cm500:h-[300px] cm800:h-[450px] cm800:w-[450px] object-cover shadow-custom rounded-lg"
             src={data.src}
             width={450}
             height={450}
-            sizes="(min-width: 800px) 450px, (min-width: 500px) 300px, 250px"
+            sizes="(min-width: 800px) 450px, (min-width: 500px) 300px"
             placeholder="blur"
           />
         </div>
-        <div className=" cmMobile:w-[250px] cm500:w-[300px]  cm800:w-[450px]">
+        <div className=" w-full">
           <h2 className="font-medium pt-4 text-2xl pb-2">{data.heading}</h2>
           {data.bullets.map((bullet, index) => {
             return <p key={index}>{bullet}</p>;
