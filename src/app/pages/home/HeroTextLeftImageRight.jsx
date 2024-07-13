@@ -70,7 +70,7 @@ const HeroTextLeftImageRight = () => {
             alt="Marta Suchanska, massage therapist based in London"
             width={1294}
             height={1280}
-            sizes="(min-width: 2660px) 1260px, (min-width: 1060px) calc(46.2vw + 40px), calc(100vw - 32px)"
+            sizes=" calc(100vw - 32px)"
             placeholder="blur"
             quality={100}
           />
