@@ -1,11 +1,7 @@
-// app/layout.js or app/layout.tsx
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import { Inter, Roboto } from "next/font/google";
-import StyledComponentsRegistry from "@/lib/StyledComponentsRegistry";
 import Script from "next/script";
-// import BootstrapClient from "./components/BootstrapClient";
-// import "@fontsource/inter";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
@@ -20,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="resources/massage icon google search.ico" />
+        <link rel="icon" href="/resources/favicon.ico" />
         <meta
           name="keywords"
           content="massage therapist, London, relaxation, well-being, therapy, massage services, Deep tissue, Sports, Remedial, Manual lymphatic drainage, Pregnancy, Myofascial release, Relaxing, Buccal Massage, Nutrition/Diet Advice"
@@ -70,10 +66,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={roboto.className}>
-        {/* <StyledComponentsRegistry>{children}</StyledComponentsRegistry> */}
-        {children}
-      </body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }
