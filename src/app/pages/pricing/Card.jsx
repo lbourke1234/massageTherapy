@@ -3,9 +3,6 @@ import PricingButton from "./PricingButton";
 import Image from "next/image";
 
 const Card = ({ data }) => {
-  function goToExternalSite() {
-    window.open("https://marta-suchanska.uk2.cliniko.com/bookings", "_blank");
-  }
   return (
     <div className="cmMobile:basis-full cm1050:basis-1/2 pr-6 pb-6 pl-6 rounded-2xl flex flex-col items-center justify-between">
       <div>

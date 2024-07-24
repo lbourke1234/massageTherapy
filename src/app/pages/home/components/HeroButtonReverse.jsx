@@ -1,6 +1,3 @@
-"use client";
-
-import { goToExternalSite } from "@/app/utils/helper";
 import Link from "next/link";
 import React from "react";
 

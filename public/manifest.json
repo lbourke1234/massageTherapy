@@ -1,0 +1,14 @@
+{
+  "name": "MASSAGE",
+  "short_name": "MASSAGE",
+  "icons": [
+    {
+      "src": "/resources/favicon.ico",
+      "sizes": "48x48 72x72 96x96 144x144 192x192",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

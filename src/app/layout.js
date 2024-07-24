@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/resources/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="keywords"
           content="massage therapist, London, relaxation, well-being, therapy, massage services, Deep tissue, Sports, Remedial, Manual lymphatic drainage, Pregnancy, Myofascial release, Relaxing, Buccal Massage, Nutrition/Diet Advice"
         />
-        <meta name="theme-color" content="#000000" />
         <meta
           name="description"
           content="A holistic manual therapist with over a decade's experience, Marta brings together multidisciplinary approaches to offer tailored treatments. With a focus on ..."
@@ -65,6 +65,19 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+        <Script id="cliniko-script">
+          {`
+          window.addEventListener('message', function handleIFrameMessage (e) {
+            var clinikoBookings = document.getElementById('cliniko-82158340');
+            if (typeof e.data !== 'string') return;
+            if (e.data.search('cliniko-bookings-resize') > -1) {
+              var height = Number(e.data.split(':')[1]);
+              clinikoBookings.style.height = height + 'px';
+            }
+            e.data.search('cliniko-bookings-page') > -1 && clinikoBookings.scrollIntoView();
+          });
+        `}
+        </Script>
       </head>
       <body className={roboto.className}>{children}</body>
     </html>
