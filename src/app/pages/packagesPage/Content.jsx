@@ -1,5 +1,3 @@
-// "use client";
-
 import React from "react";
 import Top from "./Top";
 import HowDoesItWork from "./HowDoesItWork";

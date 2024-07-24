@@ -6,6 +6,7 @@ import HeroTextLeftImageRight from "./HeroTextLeftImageRight";
 import ContactInfo from "../contactInfo/ContactInfo";
 import BannerWithText from "./BannerWithText";
 import Navbar from "../../components/nav/Navbar";
+import BookingInterface from "./BookingInterface";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <HeroTextLeftImageRight />
       <Treatments />
       <Reviews />
+      <BookingInterface />
       <BannerWithText />
       <ContactForm />
       <ContactInfo />

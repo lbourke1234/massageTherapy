@@ -1,12 +1,8 @@
-// "use client";
-
 import React from "react";
 
-import { GrInstagram, GrLinkedin, GrPhone } from "react-icons/gr";
 import ContactIcon from "./ContactIcon";
 import LinkedInIcon from "./LinkedInIcon";
 import InstagramIcon from "./InstagramIcon";
-// import Link from "next/link";
 
 const ContactInfo = () => {
   return (
