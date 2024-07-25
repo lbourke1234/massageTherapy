@@ -10,11 +10,10 @@ const ContactInfo = () => {
       <div className="flex flex-col cm800:flex-row pt-4 px-4 text-black justify-around">
         <ul>
           <li className="text-customYellow pb-6 text-[1.4em] list-none">Location</li>
-          <li className="list-none pb-4">Light Centre Marylebone</li>
-          <li className="list-none pb-4">Lower Ground</li>
-          <li className="list-none pb-4">49 Marylebone High Street</li>
+          <li className="list-none pb-4">Consulting Rooms</li>
+          <li className="list-none pb-4">104 Harley St</li>
           <li className="list-none pb-4">London</li>
-          <li className="list-none pb-4">W1U 5HJ</li>
+          <li className="list-none pb-4">W1G 7JD</li>
         </ul>
         <ul>
           <li className="text-customYellow pb-6 text-[1.4em] list-none">Hours</li>

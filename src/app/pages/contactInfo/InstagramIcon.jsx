@@ -7,7 +7,7 @@ const InstagramIcon = () => {
   return (
     <GrInstagram
       className={` hover:cursor-pointer`}
-      onClick={() => window.open("https://www.linkedin.com/in/marta-suchanska-aa3301283", "_blank")}
+      onClick={() => window.open("https://www.instagram.com/massagetherapy.london/", "_blank")}
     />
   );
 };
