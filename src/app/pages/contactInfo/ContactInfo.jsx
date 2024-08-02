@@ -22,13 +22,13 @@ const ContactInfo = () => {
         </ul>
         <ul>
           <li className="text-customYellow pb-6 text-[1.4em] list-none">Contact</li>
-          <li className="list-none pb-4">0750 2287 115 </li>
+          <li className="list-none pb-4">020 805 09335 </li>
           <li className="list-none pb-4">marta@massagetherapy.london</li>
           <li className="list-none pb-4">
             <div className="flex">
               <InstagramIcon />
               <LinkedInIcon />
-              <a className="text-black" href="tel:07502287115">
+              <a className="text-black" href="tel:02080509335">
                 <ContactIcon />
               </a>
             </div>
