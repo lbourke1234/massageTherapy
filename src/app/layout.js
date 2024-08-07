@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import { Inter, Roboto } from "next/font/google";
 import Script from "next/script";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
@@ -52,7 +53,7 @@ export default function RootLayout({ children }) {
           strategy="lazyOnload"
         />
         {/* <!-- Google tag (gtag.js) --> */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LFWV77T80R" />
+        {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LFWV77T80R" />
         <Script
           id="google-analytics"
           strategy="afterInteractive"
@@ -64,7 +65,7 @@ export default function RootLayout({ children }) {
               gtag('config', 'G-LFWV77T80R');
             `,
           }}
-        />
+        /> */}
         <Script id="cliniko-script">
           {`
           window.addEventListener('message', function handleIFrameMessage (e) {
@@ -80,6 +81,8 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body className={roboto.className}>{children}</body>
+      <GoogleTagManager gtmId="G-LFWV77T80R" />
+      {/* <GoogleAnalytics gaId="G-LFWV77T80R" /> */}
     </html>
   );
 }
