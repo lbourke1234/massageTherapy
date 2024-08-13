@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.massagetherapy.london/
+
+# Sitemaps
+Sitemap: https://www.massagetherapy.london/sitemap.xml
