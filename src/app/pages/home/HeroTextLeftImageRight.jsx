@@ -70,7 +70,7 @@ const HeroTextLeftImageRight = () => {
             alt="Marta, the London-based massage therapist specializing in sports massage, deep tissue, and relaxation techniques"
             width={1294}
             height={1280}
-            sizes=" calc(100vw - 32px)"
+            sizes="(max-width: 1050px) 50vw, 100vw"
             placeholder="blur"
             quality={100}
             priority
