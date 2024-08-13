@@ -73,6 +73,7 @@ const HeroTextLeftImageRight = () => {
             sizes=" calc(100vw - 32px)"
             placeholder="blur"
             quality={100}
+            priority
           />
         </div>
       </div>
