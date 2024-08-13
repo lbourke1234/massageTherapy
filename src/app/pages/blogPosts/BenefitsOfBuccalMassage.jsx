@@ -28,9 +28,9 @@ const BenefitsOfBuccalMassage = () => {
           </button>
         </Link>
         <div className="pt-4">
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
+          <h1 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
             {`A Complete Guide to the Benefits of Buccal Massage`}
-          </h3>
+          </h1>
           <p className="cm800:text-[1.2em]">
             {`In the world of therapeutic jaw treatments, buccal massage, also referred to as intraoral massage, is a cutting-edge method. By using an innovative approach, deeper tissues that are unreachable to standard facial massages are targeted by stroking the face muscles from inside the mouth. This article explores the uses of buccal massage, its health advantages, and the reasons it's becoming a crucial component of holistic facial therapy.`}
           </p>

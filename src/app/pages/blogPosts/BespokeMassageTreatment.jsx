@@ -28,9 +28,9 @@ const BespokeMassageTreatment = () => {
           </button>
         </Link>
         <div className="pt-4">
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
+          <h1 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
             {`Why is bespoke treatment a better option than the regular massage experience?`}
-          </h3>
+          </h1>
           <p className="cm800:text-[1.2em]">
             {`I believe in a holistic approach to health; I believe that no part of our body functions
             in isolation from the rest. I believe that everyone is unique and what is right for me

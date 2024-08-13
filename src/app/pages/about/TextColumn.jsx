@@ -3,7 +3,7 @@ import React from "react";
 const TextColumn = () => {
   return (
     <div className="basis-full pt-4 h-auto cm1050:basis-3/5 text-justify cm1050:p-8 items-center justify-center flex-col flex">
-      <p className="cmMobile:text-[1.2em] cm800:text-lg">Hello, I am Marta</p>
+      <h1 className="cmMobile:text-[1.2em] cm800:text-lg pb-2">Hello, I am Marta</h1>
       <p className="cmMobile:text-[1.2em] cm800:text-lg">
         {`I'm a founder of `}
         <span className="font-inter">MɅSSɅGE</span>

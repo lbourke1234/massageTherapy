@@ -16,9 +16,9 @@ const Content = ({ data }) => {
           </button>
         </div>
       </Link>
-      <h2 className="cmMobile:p-0 pb-2 cm800:text-2em cmMobile:text-2xl text-center">
+      <h1 className="cmMobile:p-0 pb-2 cm800:text-2em cmMobile:text-2xl text-center">
         {data.name}
-      </h2>
+      </h1>
       <Top data={data} />
       <HowDoesItWork data={data} />
       <Benefits data={data} />

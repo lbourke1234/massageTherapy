@@ -28,10 +28,10 @@ const YouAreWhatYouEat = () => {
           </button>
         </Link>
         <div className="pt-4">
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
+          <h1 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
             {`You are what you eat. Does eating habits still matter, and is it worth it to be mindful
             of what you eat?`}
-          </h3>
+          </h1>
           <p className="cm800:text-[1.2em]">
             {`A healthy diet is a huge topic; if you search for diet on Google, you'll come up with an
             overwhelming number of results, many of which are contradictory. In this ocean of
