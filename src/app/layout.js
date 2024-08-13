@@ -7,9 +7,9 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
 
 export const metadata = {
-  title: "MɅSSɅGE",
+  title: "Massage Therapy in London, Marylebone by Marta",
   description:
-    "A holistic manual therapist with over a decade's experience, Marta brings together multidisciplinary approaches to offer tailored treatments.",
+    "Massage therapy London, Marylebone. Treatments include manual lymphatic drainage massage, pregnancy massage, Swedish massage, deep tissue massage, sports and recovery massage.",
 };
 
 export default function RootLayout({ children }) {
@@ -22,15 +22,7 @@ export default function RootLayout({ children }) {
           name="keywords"
           content="massage therapist, London, relaxation, well-being, therapy, massage services, Deep tissue, Sports, Remedial, Manual lymphatic drainage, Pregnancy, Myofascial release, Relaxing, Buccal Massage, Nutrition/Diet Advice"
         />
-        <meta
-          name="description"
-          content="A holistic manual therapist with over a decade's experience, Marta brings together multidisciplinary approaches to offer tailored treatments. With a focus on ..."
-        />
         <meta name="theme-color" content="#000000" />
-        <meta
-          name="description"
-          content="A holistic manual therapist with over a decade's experience, Marta brings together multidisciplinary approaches to offer tailored treatments. With a focus on ..."
-        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link
