@@ -10,6 +10,7 @@ export const blogData = {
     preview: `A healthy diet is a huge topic; if you search for diet on Google, you'll come up with an overwhelming number of results, many of which are contradictory. In this ocean of knowledge, it is quite sim...`,
     link: `/blog/youAreWhatYouEat`,
     image: youAreWhatYouEat,
+    alt: "Healthy person reading while drinking a hot drink, with oats and healthy food",
   },
   bespokeMassageTreatment: {
     author: `Marta Suchanska`,
@@ -18,6 +19,7 @@ export const blogData = {
     preview: `I believe in a holistic approach to health; I believe that no part of our body functions in isolation from the rest. I believe that everyone is unique and what is right for me may not necessarily su...`,
     link: `/blog/bespokeMassageTreatment`,
     image: bespokeMassageTreatment,
+    alt: "Marta giving a relaxing back massage to a client",
   },
   completeGuideToTheBenefitsOfBuccalMassage: {
     author: `Marta Suchanska`,
@@ -26,5 +28,6 @@ export const blogData = {
     preview: `In the world of therapeutic jaw treatments, buccal massage, also referred to as intraoral massage, is a cutting-edge method. By using an innovative approach, deeper tissues that are unreachable to s...`,
     link: `/blog/completeGuideToTheBenefitsOfBuccalMassage`,
     image: buccalMassageBenefits,
+    alt: "Facial massage performed by a massage therapist for relaxation and rejuvenation",
   },
 };

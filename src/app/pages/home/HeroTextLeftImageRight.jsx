@@ -40,14 +40,14 @@ const HeroTextLeftImageRight = () => {
               <div className="flex items-center gap-16 ">
                 <Image
                   src={TreatWellLogo}
-                  alt="Treatwell Logo"
+                  alt="Treatwell logo displayed on desktop view"
                   height={150}
                   width={150}
                   className="cmMobile:mb-2 cm400:mb-0 cmMobile:hidden cm400:block "
                 />
                 <Image
                   src={TreatWellLogo}
-                  alt="Treatwell Logo"
+                  alt="Treatwell logo displayed on mobile view"
                   height={110}
                   width={110}
                   className="cmMobile:mb-2 cm400:mb-0 cm400:hidden "
@@ -67,7 +67,7 @@ const HeroTextLeftImageRight = () => {
           <Image
             className=" cmMobile:object-[-130px] cm450:object-[0px] cmMobile:h-[500px] cm800:h-full cmMobile:rounded-3xl cm1050:rounded-none object-cover cm1050:object-[-210px]"
             src={martaImage}
-            alt="Marta Suchanska, massage therapist based in London"
+            alt="Marta, the London-based massage therapist specializing in sports massage, deep tissue, and relaxation techniques"
             width={1294}
             height={1280}
             sizes=" calc(100vw - 32px)"

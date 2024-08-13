@@ -11,7 +11,7 @@ const BannerWithText = () => {
         className="object-cover w-full h-full"
         layout="fill"
         placeholder="blur"
-        alt="bg-image"
+        alt="Marta's hands displayed in a peaceful and relaxing way"
         sizes="100vw"
       />
       <div className=" cmMobile:text-center cm1300:text-left relative top-0 left-0 w-full h-full bg-blackOpacity20 flex flex-col justify-center items-center py-4 cm400:p-0">

@@ -20,6 +20,7 @@ const Top = ({ data }) => {
           height={550}
           sizes="(min-width: 800px) calc(50vw - 48px), calc(100vw - 48px)"
           placeholder="blur"
+          alt={data.subImageAlt}
         />
       </div>
     </div>

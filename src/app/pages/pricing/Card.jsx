@@ -14,6 +14,7 @@ const Card = ({ data }) => {
             height={450}
             sizes="(min-width: 800px) 450px, (min-width: 500px) 300px"
             placeholder="blur"
+            alt={data.alt}
           />
         </div>
         <div className=" w-full">

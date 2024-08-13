@@ -11,7 +11,7 @@ const Content = () => {
           <Image
             className="cm470:h[400px] h-auto w-full object-cover rounded-3xl shadow-custom"
             src={Picture}
-            alt="Marta giving a back massage "
+            alt="Marta giving a relaxing back massage to a client"
             height={1380}
             width={921}
             sizes="(min-width: 480px) 35.99vw, 90vw"

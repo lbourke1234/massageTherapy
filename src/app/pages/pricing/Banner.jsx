@@ -12,6 +12,7 @@ const Banner = () => {
       placeholder="blur"
       src={Picture}
       sizes="(min-width: 2700px) 2560px, calc(94.96vw + 15px)"
+      alt="Facial massage performed by a massage therapist for relaxation and rejuvenation"
     />
   );
 };
