@@ -6,15 +6,17 @@ import { GoogleTagManager } from "@next/third-parties/google";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
 const inter = Inter({
-  subsets: ["latin"], // Specify the character subsets you need
-  weight: ["100", "300", "400", "500", "700", "900"], // Specify the font weights you need
-  display: "swap", // Optional: This can help improve the page render by swapping the font styles
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+  display: "swap",
 });
 
 export const metadata = {
   title: "Massage Therapy in London, Marylebone by Marta",
   description:
     "Massage therapy London, Marylebone. Treatments include manual lymphatic drainage massage, pregnancy massage, Swedish massage, deep tissue massage, sports and recovery massage.",
+  keywords:
+    "massage therapist, London, relaxation, well-being, therapy, massage services, Deep tissue, Sports, Remedial, Manual lymphatic drainage, Pregnancy, Myofascial release, Relaxing, Buccal Massage, Nutrition/Diet Advice",
 };
 
 export default function RootLayout({ children }) {
@@ -23,19 +25,11 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/resources/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
-        <meta
-          name="keywords"
-          content="massage therapist, London, relaxation, well-being, therapy, massage services, Deep tissue, Sports, Remedial, Manual lymphatic drainage, Pregnancy, Myofascial release, Relaxing, Buccal Massage, Nutrition/Diet Advice"
-        />
         <meta name="theme-color" content="#000000" />
         {/* <Script
-          src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-          strategy="beforeInteractive"
-        /> */}
-        <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"
           strategy="beforeInteractive"
-        />
+        /> */}
         <Script id="cliniko-script">
           {`
           window.addEventListener('message', function handleIFrameMessage (e) {
