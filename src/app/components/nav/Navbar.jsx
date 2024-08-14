@@ -71,7 +71,7 @@ const Navbar = () => {
               </div>
             </Link>
             <Link
-              href={"/#booking-form-heading"}
+              href={"/booking"}
               className="cm320:inline-block cmMobile:hidden cm991:hidden py-[0.2rem] px-[1rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105"
             >
               Book Now!
@@ -124,7 +124,7 @@ const Navbar = () => {
               </div>
             </Link>
             <Link
-              href={"/#booking-form-heading"}
+              href={"/booking"}
               className="py-[0.7rem] px-[1.75rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105"
             >
               Book Now!
