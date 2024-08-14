@@ -16,6 +16,7 @@ const Content = () => {
             width={921}
             sizes="(min-width: 480px) 35.99vw, 90vw"
             placeholder="blur"
+            loading="eager"
           />
         </div>
         <TextColumn />
