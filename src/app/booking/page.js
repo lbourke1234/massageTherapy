@@ -8,10 +8,17 @@ import Head from "next/head";
 import Script from "next/script";
 import ContactInfo from "../pages/contactInfo/ContactInfo";
 
+export const metadata = {
+  title: "Book Your Massage Therapy Session Online | Relax & Rejuvenate",
+  description:
+    "Book your massage therapy appointment online. Choose from deep tissue, sports massage, or relaxation therapy. Secure your appointment today for ultimate rejuvenation.",
+};
+
 const page = () => {
-  <Head>
-    <Script async id="cliniko-script">
-      {`
+  return (
+    <>
+      <Script async id="cliniko-script">
+        {`
           window.addEventListener('message', function handleIFrameMessage (e) {
             var clinikoBookings = document.getElementById('cliniko-82158340');
             if (typeof e.data !== 'string') return;
@@ -22,16 +29,13 @@ const page = () => {
             e.data.search('cliniko-bookings-page') > -1 && clinikoBookings.scrollIntoView();
           });
         `}
-    </Script>
-  </Head>;
-
-  return (
-    <div>
+      </Script>
+      ;
       <Navbar />
       <Space />
       <BookingInterface />
       <ContactInfo />
-    </div>
+    </>
   );
 };
 
