@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"
           strategy="beforeInteractive"
         /> */}
-        <Script id="cliniko-script">
+        <Script async id="cliniko-script">
           {`
           window.addEventListener('message', function handleIFrameMessage (e) {
             var clinikoBookings = document.getElementById('cliniko-82158340');
