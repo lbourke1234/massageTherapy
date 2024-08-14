@@ -15,7 +15,6 @@ const CardHeadingTextBtn = ({ heading, src, link, alt }) => {
             height={450}
             sizes="(min-width: 800px) 450px, 200px"
             placeholder="blur"
-            loading="eager"
           />
         </div>
         <div className="card-body text-center">
