@@ -16,6 +16,7 @@ const PreviewCard = ({ data }) => {
           sizes="(min-width: 1200px) calc(35vw - 48px), (min-width: 1000px) calc(50vw - 48px), calc(100vw - 48px)"
           placeholder="blur"
           alt={data.alt}
+          loading="eager"
         />
       </Link>
       <div className="flex-col cm331:flex-row items-start cm331:items-center flex pt-4">
