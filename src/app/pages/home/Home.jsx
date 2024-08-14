@@ -15,7 +15,7 @@ const Home = () => {
       <HeroTextLeftImageRight />
       <Treatments />
       <Reviews />
-      {/* <BookingInterface /> */}
+      <BookingInterface />
       <BannerWithText />
       <ContactForm />
       <ContactInfo />
