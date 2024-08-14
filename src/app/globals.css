@@ -51,3 +51,6 @@ p {
 .show {
   display: flex;
 }
+.font-inter {
+  font-family: "Inter", sans-serif;
+}

@@ -5,6 +5,11 @@ import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
+const inter = Inter({
+  subsets: ["latin"], // Specify the character subsets you need
+  weight: ["100", "300", "400", "500", "700", "900"], // Specify the font weights you need
+  display: "swap", // Optional: This can help improve the page render by swapping the font styles
+});
 
 export const metadata = {
   title: "Massage Therapy in London, Marylebone by Marta",
@@ -23,12 +28,12 @@ export default function RootLayout({ children }) {
           content="massage therapist, London, relaxation, well-being, therapy, massage services, Deep tissue, Sports, Remedial, Manual lymphatic drainage, Pregnancy, Myofascial release, Relaxing, Buccal Massage, Nutrition/Diet Advice"
         />
         <meta name="theme-color" content="#000000" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
           rel="stylesheet"
-        />
+        /> */}
         <Script
           src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
           strategy="beforeInteractive"
