@@ -1,8 +1,8 @@
 import React from "react";
-import { FaRegClock } from "react-icons/fa";
+import ClockSvg from "/public/resources/svg/clock.svg";
 import Link from "next/link";
-import { FaRegUser } from "react-icons/fa6";
 import Image from "next/image";
+import UserSvg from "/public/resources/svg/user.svg";
 
 const PreviewCard = ({ data }) => {
   return (
@@ -20,10 +20,23 @@ const PreviewCard = ({ data }) => {
         />
       </Link>
       <div className="flex-col cm331:flex-row items-start cm331:items-center flex pt-4">
-        <FaRegUser className="hidden cm331:block" />
+        <Image
+          className="hidden cm331:block"
+          src={UserSvg}
+          alt="user icon"
+          height={16}
+          width={16}
+        />
         <span className="cm1200:text-xl underline ml-1">{data.author} </span>
         <span className="cm331:flex ml-1 items-center gap-1 hidden">
-          {" - "} <FaRegClock />
+          {" - "}{" "}
+          <Image
+            className="hidden cm331:block"
+            src={ClockSvg}
+            alt="user icon"
+            height={16}
+            width={16}
+          />{" "}
         </span>
         <span className="cm1200:text-xl ml-1">{data.date}</span>
       </div>

@@ -1,15 +1,45 @@
+import Image from "next/image";
 import React from "react";
-
-import { FaStar } from "react-icons/fa6";
+import StarSvg from "/public/resources/svg/star.svg";
 
 const FiveStarReview = () => {
   return (
     <div className="justify-center pb-4 flex flex-wrap">
-      <FaStar className="text-2xl text-customYellow" />
-      <FaStar className="text-2xl text-customYellow" />
-      <FaStar className="text-2xl text-customYellow" />
-      <FaStar className="text-2xl text-customYellow" />
-      <FaStar className="text-2xl text-customYellow" />
+      <Image
+        className="text-2xl text-customYellow"
+        src={StarSvg}
+        alt="user icon"
+        height={24}
+        width={24}
+      />
+      <Image
+        className="text-2xl text-customYellow"
+        src={StarSvg}
+        alt="user icon"
+        height={24}
+        width={24}
+      />
+      <Image
+        className="text-2xl text-customYellow"
+        src={StarSvg}
+        alt="user icon"
+        height={24}
+        width={24}
+      />
+      <Image
+        className="text-2xl text-customYellow"
+        src={StarSvg}
+        alt="user icon"
+        height={24}
+        width={24}
+      />
+      <Image
+        className="text-2xl text-customYellow"
+        src={StarSvg}
+        alt="user icon"
+        height={24}
+        width={24}
+      />
     </div>
   );
 };

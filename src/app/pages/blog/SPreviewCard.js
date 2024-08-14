@@ -1,4 +1,3 @@
-import { FaRegUser } from "react-icons/fa6";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -63,8 +62,8 @@ export const StyledSpan = styled.span`
     display: none;
   }
 `;
-export const StyledUserIcon = styled(FaRegUser)`
-  @media screen and (max-width: 331px) {
-    display: none;
-  }
-`;
+// export const StyledUserIcon = styled(FaRegUser)`
+//   @media screen and (max-width: 331px) {
+//     display: none;
+//   }
+// `;

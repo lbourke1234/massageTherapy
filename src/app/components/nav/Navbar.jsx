@@ -4,7 +4,8 @@ import React, { useEffect, useRef, useState } from "react";
 import Logo from "../Logo";
 import MobileLogo from "../reuse/MobileLogo";
 import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
+import HamburgerSvg from "/public/resources/svg/hamburger-menu.svg";
+import Image from "next/image";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(true);
@@ -63,7 +64,13 @@ const Navbar = () => {
         <div className="w-[94%] m-auto">
           <div className="flex justify-between items-center w-full">
             <div ref={hamburgerRef} onClick={(e) => handleToggleNavbar(e)}>
-              <GiHamburgerMenu className="cm991:hidden text-2xl cursor-pointer cmMobile:inline-block" />
+              <Image
+                className="cm991:hidden text-2xl cursor-pointer cmMobile:inline-block"
+                src={HamburgerSvg}
+                alt="hamburger icon"
+                height={24}
+                width={24}
+              />
             </div>
             <Link href={"/"}>
               <div className="cmMobile:inline-block cm991:hidden">
