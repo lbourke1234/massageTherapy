@@ -1,13 +1,18 @@
 "use client";
 
 import React from "react";
-import { GrLinkedin } from "react-icons/gr";
+import LinkedInPicture from "/public/resources/svg/linkedin.svg";
+import Image from "next/image";
 
 const LinkedInIcon = () => {
   return (
-    <GrLinkedin
-      className={` hover:cursor-pointer mx-4`}
+    <Image
       onClick={() => window.open("https://www.linkedin.com/in/marta-suchanska-aa3301283", "_blank")}
+      className="hover:cursor-pointer mx-4"
+      src={LinkedInPicture}
+      alt="linked in icon"
+      height={16}
+      width={16}
     />
   );
 };

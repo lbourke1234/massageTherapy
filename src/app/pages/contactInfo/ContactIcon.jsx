@@ -1,10 +1,13 @@
-"use client";
-
+import Image from "next/image";
 import React from "react";
-import { GrPhone } from "react-icons/gr";
+import Phone from "/public/resources/svg/phone.svg";
 
 const ContactIcon = () => {
-  return <GrPhone className={` hover:cursor-pointer`} />;
+  return (
+    <>
+      <Image className="hover:cursor-pointer" src={Phone} alt="phone icon" height={16} width={16} />
+    </>
+  );
 };
 
 export default ContactIcon;
