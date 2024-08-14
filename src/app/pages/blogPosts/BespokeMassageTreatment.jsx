@@ -21,6 +21,7 @@ const BespokeMassageTreatment = () => {
           sizes="(min-width: 800px) 70vw, 95vw"
           placeholder="blur"
           alt="Marta giving a relaxing back massage to a client"
+          loading="eager"
         />
         <Link href={"/blog"}>
           <button className="py-[0.7rem] px-[2.75rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl mt-4 transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
