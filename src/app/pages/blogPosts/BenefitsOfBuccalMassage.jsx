@@ -70,14 +70,6 @@ const BenefitsOfBuccalMassage = () => {
               {`Regular buccal massage encourages the production of collagen, which is essential for preserving the flexibility of the skin. This improves the overall looks of the face by making the skin tighter and more toned and by lessening the appearance of wrinkles and sagging.`}
             </li>
           </ul>
-          {/* <ul className="list-disc cm800:ml-10 pb-4">
-            <li className="cmMobile:font-bold cmMobile:text-[1.1em] cm800:text-[1.5rem] list-none font-semibold pb-2">
-              {`Facilitates Natural Facial Contouring`}
-            </li>
-            <li className="cm800:text-[1.2em] ml-5">
-              {`Regular buccal massage encourages the production of collagen, which is essential for preserving the flexibility of the skin. This improves the overall looks of the face by making the skin tighter and more toned and by lessening the appearance of wrinkles and sagging.`}
-            </li>
-          </ul> */}
           <ul className="list-disc cm800:ml-10 pb-4">
             <li className="cmMobile:font-bold cmMobile:text-[1.1em] cm800:text-[1.5rem] list-none font-semibold pb-2">
               {`Reduces Stress and Promotes Relaxation`}

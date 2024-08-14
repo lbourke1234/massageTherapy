@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"
           strategy="beforeInteractive"
         /> */}
-        <Script async id="cliniko-script">
+        {/* <Script async id="cliniko-script">
           {`
           window.addEventListener('message', function handleIFrameMessage (e) {
             var clinikoBookings = document.getElementById('cliniko-82158340');
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
             e.data.search('cliniko-bookings-page') > -1 && clinikoBookings.scrollIntoView();
           });
         `}
-        </Script>
+        </Script> */}
       </head>
       <body className={roboto.className}>{children}</body>
       <GoogleTagManager gtmId="G-LFWV77T80R" />
