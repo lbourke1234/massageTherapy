@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Picture from "/public/resources/Marta_Osteopath-403.jpg";
+import Picture from "/public/resources/webp/Marta_Osteopath-403.webp";
 
 const Banner = () => {
   return (
