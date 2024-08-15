@@ -60,7 +60,7 @@ const FastNavbar = () => {
         // style={{ top: visible ? "0" : "-420px" }}
         className={`${
           visible ? "translate-y-0" : "-translate-y-full"
-        } fixed top-0 left-0 right-0 z-50 bg-navbarColor transition-all duration-300 ease-in-out cm1050:h-36 h-14`}
+        } fixed top-0 left-0 right-0 z-50 bg-navbarColor transition-all duration-300 ease-in-out`}
       >
         {navOpen && (
           <div
@@ -94,7 +94,8 @@ const FastNavbar = () => {
             </div>
           </div>
         )}
-        <div className="w-[94%] mx-auto flex text-white cm1050:h-36 h-14 justify-between items-center ">
+        {/* mobile below */} {/* mobile below */} {/* mobile below */} {/* mobile below */}{" "}
+        <div className="w-[94%] mx-auto flex cm1050:hidden text-white h-14 justify-between items-center ">
           <div
             ref={hamburgerRef}
             className="cm1050:hidden block text-3xl cursor-pointer"
@@ -130,12 +131,48 @@ const FastNavbar = () => {
           </div>
           <Link href={"/"} onClick={handleLinkClick}>
             <div className=" mr-0 cm1230:mr-[20em] ">
-              <div className="cm1050:inline-block hidden">
-                <Logo />
-              </div>
-              <div className="cm1050:hidden inline-block">
-                <MobileLogo />
-              </div>
+              <MobileLogo />
+            </div>
+          </Link>
+          <Link
+            href={"/booking"}
+            className="cm320:inline-block cmMobile:hidden cm1050:hidden py-[0.2rem] px-[1rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105"
+          >
+            Book Now!
+          </Link>
+
+          <Link
+            href={"/booking"}
+            className="hidden cm1050:block py-[0.7rem] px-[1.75rem] border-1 leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105"
+          >
+            Book Now!
+          </Link>
+        </div>
+        {/* mobile above */} {/* mobile above */} {/* mobile above */} {/* mobile above */}{" "}
+        <div className="w-[94%] mx-auto cm1050:flex hidden text-white h-36 justify-between items-center ">
+          <div className="cm1050:flex hidden gap-6">
+            <Link className="hover:text-gray-200" href={"/"}>
+              Home
+            </Link>
+            <Link className="hover:text-gray-200" href={"/about"}>
+              About
+            </Link>
+            <Link className="hover:text-gray-200" href={"/pricing"}>
+              Pricing
+            </Link>
+            <Link className="hover:text-gray-200" href={"/#services"}>
+              Services
+            </Link>
+            <Link className="hover:text-gray-200" href={"/blog"}>
+              Blog
+            </Link>
+            <Link className="hover:text-gray-200" href={"/#contact"}>
+              Contact
+            </Link>
+          </div>
+          <Link href={"/"} onClick={handleLinkClick}>
+            <div className=" mr-0 cm1230:mr-[20em] ">
+              <Logo />
             </div>
           </Link>
           <Link

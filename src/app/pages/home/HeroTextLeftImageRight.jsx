@@ -36,28 +36,34 @@ const HeroTextLeftImageRight = () => {
                   180+ reviews
                 </span>
               </div>
-              <div className="flex items-center gap-16 ">
-                <Image
-                  src={TreatWellLogo}
-                  alt="Treatwell logo displayed on desktop view"
-                  height={150}
-                  width={150}
-                  className="cmMobile:mb-2 cm400:mb-0 cmMobile:hidden cm400:block "
-                />
-                <Image
-                  src={TreatWellLogo}
-                  alt="Treatwell logo displayed on mobile view"
-                  height={110}
-                  width={110}
-                  className="cmMobile:mb-2 cm400:mb-0 cm400:hidden "
-                />
-                <div className="cmMobile:hidden cm400:block">
-                  <GoogleSVG />
+              {/* <div className="flex items-center gap-16 ">
+                <div className="hidden cm400:block">
+                  <Image
+                    src={TreatWellLogo}
+                    alt="Treatwell logo displayed on desktop view"
+                    height={150}
+                    width={150}
+                    className="mb-2 cm400:mb-0 "
+                  />
                 </div>
-                <div className="cm400:hidden">
-                  <GoogleSVGMobile />
+                <div className="block cm400:hidden">
+                  <Image
+                    src={TreatWellLogo}
+                    alt="Treatwell logo displayed on mobile view"
+                    height={110}
+                    width={110}
+                    className=" cmMobile:mb-2 cm400:mb-0"
+                  />
                 </div>
-              </div>
+                <div>
+                  <div className="hidden cm400:block">
+                    <GoogleSVG />
+                  </div>
+                  <div className="cm400:hidden block">
+                    <GoogleSVGMobile />
+                  </div>
+                </div>
+              </div> */}
             </div>
             {/* bottom above */}
           </div>
