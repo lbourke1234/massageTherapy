@@ -1,11 +1,11 @@
 import mainBespoke from "/public/resources/Marta_Osteopath-359.jpg";
 import mainBuccal from "/public/resources/Marta_Osteopath-388.jpg";
 import mainNutrition from "/public/resources/Jar.jpeg";
-import mainPackage from "/public/resources/Marta_Osteopath-410.jpg";
+import mainPackage from "/public/resources/webp/Marta_Osteopath-410.webp";
 import subBespoke from "/public/resources/Marta_Osteopath-195.jpg";
 import subBuccal from "/public/resources/Marta_Osteopath-Buccal-Massage.jpg";
 import subNutrition from "/public/resources/nutrition-2.jpeg";
-import subPackage from "/public/resources/Marta_Osteopath-350.jpg";
+import subPackage from "/public/resources/webp/Marta_Osteopath-350.webp";
 
 export const treatmentData = [
   {
