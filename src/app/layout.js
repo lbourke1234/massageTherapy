@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import { Inter, Roboto } from "next/font/google";
 import { GoogleTagManager } from "@next/third-parties/google";

@@ -6,11 +6,12 @@ import Link from "next/link";
 import BespokeButton from "./BespokeButton";
 import Image from "next/image";
 import Picture from "/public/resources/massage blog.jpg";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const BespokeMassageTreatment = () => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <Space />
       <div className="w-[95%] cm800:w-[70%] text-black m-auto">
         <Image

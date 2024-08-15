@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "../../components/nav/Navbar";
 import Content from "./Content";
 import Space from "./Space";
 import ContactInfo from "../contactInfo/ContactInfo";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const About = () => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <Space />
       <Content />
       <ContactInfo />

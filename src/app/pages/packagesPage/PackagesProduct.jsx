@@ -1,13 +1,13 @@
 import React from "react";
 import Space from "../about/Space";
-import Navbar from "../../components/nav/Navbar";
 import Content from "./Content";
 import ContactInfo from "../contactInfo/ContactInfo";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const PackagesProduct = ({ data }) => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <Space />
       <Content data={data} />
       <ContactInfo />

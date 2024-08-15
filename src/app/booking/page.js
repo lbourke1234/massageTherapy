@@ -1,12 +1,9 @@
 import React from "react";
-import BookingHeading from "./BookingHeading";
 import BookingInterface from "../pages/home/BookingInterface";
-import Booking from "./Booking";
-import Navbar from "../components/nav/Navbar";
 import Space from "../pages/about/Space";
-import Head from "next/head";
 import Script from "next/script";
 import ContactInfo from "../pages/contactInfo/ContactInfo";
+import FastNavbar from "../components/nav/FastNavbar";
 
 export const metadata = {
   title: "Book Your Massage Therapy Session Online | Relax & Rejuvenate",
@@ -31,7 +28,7 @@ const page = () => {
         `}
       </Script>
       ;
-      <Navbar />
+      <FastNavbar />
       <Space />
       <BookingInterface />
       <ContactInfo />
