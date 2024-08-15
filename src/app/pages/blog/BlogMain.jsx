@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "../../components/nav/Navbar";
 import Space from "../about/Space";
 import BlogHeading from "./BlogHeading";
 import CardsContainer from "./CardsContainer";
 import ContactInfo from "../contactInfo/ContactInfo";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const BlogMain = () => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <Space />
       <BlogHeading />
       <CardsContainer />

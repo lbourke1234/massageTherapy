@@ -5,12 +5,12 @@ import Link from "next/link";
 import BespokeButton from "./BespokeButton";
 import ContactInfo from "../contactInfo/ContactInfo";
 import Picture from "/public/resources/Marta_Osteopath-403.jpg";
-import Navbar from "@/app/components/nav/Navbar";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const BenefitsOfBuccalMassage = () => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <Space />
       <div className="w-[95%] cm800:w-[70%] text-black m-auto">
         <Image

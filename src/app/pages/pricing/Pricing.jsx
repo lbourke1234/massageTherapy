@@ -1,14 +1,14 @@
 import React from "react";
 import Content from "./Content";
-import Navbar from "../../components/nav/Navbar";
 import Banner from "./Banner";
 import Cards from "./Cards";
 import ContactInfo from "../contactInfo/ContactInfo";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const Pricing = () => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <Banner />
       <Cards />
       <Content />

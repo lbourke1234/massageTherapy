@@ -1,16 +1,16 @@
 import React from "react";
 import Space from "../about/Space";
 import ContactInfo from "../contactInfo/ContactInfo";
-import Navbar from "../../components/nav/Navbar";
 import Link from "next/link";
 import BespokeButton from "./BespokeButton";
 import Image from "next/image";
 import Picture from "/public/resources/blog eat.jpg";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const YouAreWhatYouEat = () => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <Space />
       <div className="w-[95%] cm800:w-[75%] m-auto text-black">
         <Image

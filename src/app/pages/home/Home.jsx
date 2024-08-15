@@ -5,17 +5,15 @@ import Reviews from "./Reviews";
 import HeroTextLeftImageRight from "./HeroTextLeftImageRight";
 import ContactInfo from "../contactInfo/ContactInfo";
 import BannerWithText from "./BannerWithText";
-import Navbar from "../../components/nav/Navbar";
-import BookingInterface from "./BookingInterface";
+import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+      <FastNavbar />
       <HeroTextLeftImageRight />
       <Treatments />
       <Reviews />
-      {/* <BookingInterface /> */}
       <BannerWithText />
       <ContactForm />
       <ContactInfo />
