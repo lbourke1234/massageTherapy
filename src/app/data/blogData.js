@@ -1,6 +1,6 @@
-import youAreWhatYouEat from "/public/resources/blog eat.jpg";
-import bespokeMassageTreatment from "/public/resources/massage blog.jpg";
-import buccalMassageBenefits from "/public/resources/Marta_Osteopath-403.jpg";
+import youAreWhatYouEat from "/public/resources/webp/blog eat.webp";
+import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
+import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
