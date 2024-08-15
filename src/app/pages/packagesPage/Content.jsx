@@ -11,7 +11,7 @@ const Content = ({ data }) => {
     <div className="m-auto text-black" key={data.key}>
       <Link href={"/#services"}>
         <div className="cm992:absolute cmMobile:flex top-[150px] left-0 cmMobile:justify-end cm1050:justify-start px-4">
-          <button className="py-[0.7rem] px-[2.75rem] border-1 leading-[1.5] text-white bg-[#8F8D86] bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
+          <button className="py-[0.7rem] px-[2.75rem] border leading-[1.5] bg-white text-black bg-clip-padding border-solid border-gray-600 rounded-3xl transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
             Back
           </button>
         </div>
