@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import BespokeButton from "./BespokeButton";
 import ContactInfo from "../contactInfo/ContactInfo";
-import Picture from "/public/resources/Marta_Osteopath-403.jpg";
+import Picture from "/public/resources/webp/Marta_Osteopath-403.webp";
 import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const BenefitsOfBuccalMassage = () => {

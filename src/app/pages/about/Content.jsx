@@ -1,7 +1,7 @@
 import React from "react";
 import TextColumn from "./TextColumn";
 import Image from "next/image";
-import Picture from "/public/resources/Marta_Osteopath-205.jpg";
+import Picture from "/public/resources/webp/Marta_Osteopath-205.webp";
 
 const Content = () => {
   return (
@@ -34,22 +34,22 @@ const Content = () => {
           <div className="flex-col cm600:flex-row flex justify-center items-center w-[70%] m-auto cmMobile:gap-4 cm600:gap-0">
             <img
               className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
-              src="resources/logo1.jpeg"
+              src="resources/webp/logo1.webp"
               alt="British College of BCOM Osteopathic Medicine Logo"
             />
             <img
               className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
-              src="resources/logo2.jpeg"
+              src="resources/webp/logo2.webp"
               alt="The Institute of Osteopathy Logo"
             />
             <img
               className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
-              src="resources/fht-cert.jpg"
+              src="resources/webp/fht-cert.webp"
               alt="The Institute of Osteopathy Logo"
             />
             <img
               className="cm470:block w-[100px] mr-4 object-cover shadow-custom rounded-lg"
-              src="resources/itec-cert.jpg"
+              src="resources/webp/itec-cert.webp"
               alt="The Institute of Osteopathy Logo"
             />
           </div>

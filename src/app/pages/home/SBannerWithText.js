@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 80vh;
-  background-image: url("resources/Marta_Osteopath-276.jpg");
+  background-image: url("resources/webp/Marta_Osteopath-276.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

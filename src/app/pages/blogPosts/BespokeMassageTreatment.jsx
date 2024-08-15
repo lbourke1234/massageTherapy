@@ -5,7 +5,7 @@ import Navbar from "../../components/nav/Navbar";
 import Link from "next/link";
 import BespokeButton from "./BespokeButton";
 import Image from "next/image";
-import Picture from "/public/resources/massage blog.jpg";
+import Picture from "/public/resources/webp/massage blog.webp";
 import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const BespokeMassageTreatment = () => {

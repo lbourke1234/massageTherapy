@@ -4,7 +4,7 @@ import ContactInfo from "../contactInfo/ContactInfo";
 import Link from "next/link";
 import BespokeButton from "./BespokeButton";
 import Image from "next/image";
-import Picture from "/public/resources/blog eat.jpg";
+import Picture from "/public/resources/webp/blog eat.webp";
 import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const YouAreWhatYouEat = () => {

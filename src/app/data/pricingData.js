@@ -1,7 +1,7 @@
-import bespoke from "/public/resources/Marta_Osteopath-373.jpg";
-import nutritional from "/public/resources/Pancake.jpeg";
-import packages from "/public/resources/Marta_Osteopath-224.jpg";
-import buccal from "/public/resources/Marta_Osteopath-388.jpg";
+import bespoke from "/public/resources/webp/Marta_Osteopath-373.webp";
+import nutritional from "/public/resources/webp/Pancake.webp";
+import packages from "/public/resources/webp/Marta_Osteopath-224.webp";
+import buccal from "/public/resources/webp/Marta_Osteopath-388.webp";
 
 export const pricingData = {
   bespokeMassage: {

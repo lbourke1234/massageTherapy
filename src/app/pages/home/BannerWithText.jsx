@@ -1,6 +1,6 @@
 import React from "react";
 import ExternalClientButton from "./components/ExternalClientButton";
-import Picture from "/public/resources/Marta_Osteopath-276.jpg";
+import Picture from "/public/resources/webp/Marta_Osteopath-276.webp";
 import Image from "next/image";
 
 const BannerWithText = () => {
