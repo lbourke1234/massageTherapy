@@ -5,7 +5,7 @@ const TextColumn = () => {
     <div className="basis-full pt-4 h-auto cm1050:basis-3/5 text-justify cm1050:p-8 items-center justify-center flex-col flex">
       <h1 className="cmMobile:text-[1.2em] cm800:text-lg pb-2">Hello, I am Marta</h1>
       <p className="cmMobile:text-[1.2em] cm800:text-lg">
-        {`I'm a founder of `}
+        {`A founder of `}
         <span className="font-inter">MɅSSɅGE</span>
         {`, a Certified Massage Therapist,
         Nutritional Advisor and Osteopathic and Naturopathic Medicine Student.`}
