@@ -36,7 +36,7 @@ const HeroTextLeftImageRight = () => {
                   180+ reviews
                 </span>
               </div>
-              {/* <div className="flex items-center gap-16 ">
+              <div className="flex items-center gap-16 ">
                 <div className="hidden cm400:block">
                   <Image
                     src={TreatWellLogo}
@@ -63,7 +63,7 @@ const HeroTextLeftImageRight = () => {
                     <GoogleSVGMobile />
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
             {/* bottom above */}
           </div>
