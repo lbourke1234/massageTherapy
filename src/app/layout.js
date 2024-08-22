@@ -26,8 +26,8 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
       </head>
-      <GoogleTagManager gtmId="G-LFWV77T80R" />
       <body className={roboto.className}>{children}</body>
+      <GoogleTagManager gtmId="GTM-TGGDXMM8" />
     </html>
   );
 }
