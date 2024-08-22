@@ -22,6 +22,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta
+          name="google-site-verification"
+          content="omBTpT9zp6ubL8-0VLhFRg5HmcdKO2txnR_cTq9a9No"
+        />
         <link rel="icon" href="/resources/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
