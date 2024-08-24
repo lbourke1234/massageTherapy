@@ -6,7 +6,7 @@ const Reviews = () => {
   return (
     <div className="flex flex-col bg-[#EFEBE0]">
       <div className="flex flex-col w-[90%] m-auto py-8">
-        <h4 className="text-black text-center text-2em font-medium">Testimonials</h4>
+        <h4 className="text-black text-center text-2xl lg:text-2em font-medium">Testimonials</h4>
         <div className="flex flex-wrap">
           {testimonialData.map((review, key) => (
             <div
