@@ -33,7 +33,7 @@ const HeroTextLeftImageRight = () => {
               <div className="flex gap-12 items-center ">
                 <FiveStarHero />
                 <span className="text-black cm400:text-2xl cmMobile:mb-2 cm400:mb-0">
-                  180+ reviews
+                  211+ reviews
                 </span>
               </div>
               <div className="flex items-center gap-16 ">
