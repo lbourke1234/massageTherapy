@@ -5,7 +5,7 @@ import buccal from "/public/resources/webp/Marta_Osteopath-388.webp";
 
 export const pricingData = {
   bespokeMassage: {
-    heading: `Bespoke Massage Treatment`,
+    heading: `Massage Treatment`,
     bullets: [`30 min - £70`, `60min - £115`, `90min - £155`],
     src: bespoke,
     alt: "Marta's Sports Massage: Expert Techniques for Enhanced Performance and Recovery",
