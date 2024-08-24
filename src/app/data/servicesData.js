@@ -27,7 +27,7 @@ const sportsMassageHome = {
   className: "object-[center_40%]",
 };
 const lymphaticDrainageMassageHome = {
-  name: `Lymphatic Drainage Massage`,
+  name: `Manual Lymphatic Drainage`,
   mainImage: MLDrainagePicHome,
   mainImageAlt: `Lymphatic drainage massage performed by a therapist to promote circulation.`,
   link: `/services/lymphatic-drainage-massage`,
