@@ -27,7 +27,6 @@ const page = () => {
           });
         `}
       </Script>
-      ;
       <FastNavbar />
       <Space />
       <BookingInterface />

@@ -40,6 +40,12 @@ const TextColumn = () => {
         professionals (Premier League footballers), patients in pain, those who simply would like to
         improve their wellbeing.`}
       </p>
+      <p className="cmMobile:text-[1.2em] cm800:text-lg">
+        {`I work with people suffering from conditions like sciatica, fibromyalgia, experiencing
+          headaches, struggling with low back, neck pain, leading more active lifestyle, going
+          through injuries, recovery period, as well as office workers, those who would like
+          distress, or use massage treatments as injury, pain preventing tool.`}
+      </p>
     </div>
   );
 };
