@@ -1,6 +1,7 @@
 import youAreWhatYouEat from "/public/resources/webp/blog eat.webp";
 import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
+import mld from "/public/resources/blogPosts/mld.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -15,7 +16,7 @@ export const blogData = {
   bespokeMassageTreatment: {
     author: `Marta Suchanska`,
     date: `10th Apr 2024`,
-    title: `Bespoke Massage Treatment`,
+    title: `Signature Massage Treatment`,
     preview: `I believe in a holistic approach to health; I believe that no part of our body functions in isolation from the rest. I believe that everyone is unique and what is right for me may not necessarily su...`,
     link: `/blog/bespokeMassageTreatment`,
     image: bespokeMassageTreatment,
@@ -29,5 +30,23 @@ export const blogData = {
     link: `/blog/completeGuideToTheBenefitsOfBuccalMassage`,
     image: buccalMassageBenefits,
     alt: "Facial massage performed by a massage therapist for relaxation and rejuvenation",
+  },
+  mld: {
+    author: `Marta Suchanska`,
+    date: `30th Aug 2024`,
+    title: `Manual Lymphatic Drainage Therapy - Benefits and How to Perform`,
+    preview: `Manual Lymphatic Drainage (MLD) is a specialised form of massage therapy designed to stimulate the lymphatic system, which plays a crucial role in maintaining the body's fluid balance and immune function.`,
+    link: `/blog/manual-lymphatic-drainage-therapy-benefits-and-how-to-perform`,
+    image: mld,
+    alt: "TBA",
+  },
+  temp: {
+    author: `Marta Suchanska`,
+    date: `30th Aug 2024`,
+    title: `MLD`,
+    preview: `TBA`,
+    link: `/blog/mld`,
+    image: mld,
+    alt: "TBA",
   },
 };
