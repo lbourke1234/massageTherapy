@@ -8,6 +8,7 @@ const CardsContainer = () => {
       <PreviewCard data={blogData.bespokeMassageTreatment} />
       <PreviewCard data={blogData.youAreWhatYouEat} />
       <PreviewCard data={blogData.completeGuideToTheBenefitsOfBuccalMassage} />
+      <PreviewCard data={blogData.mld} />
     </div>
   );
 };
