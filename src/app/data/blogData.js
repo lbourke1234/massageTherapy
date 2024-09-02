@@ -27,7 +27,7 @@ export const blogData = {
     date: `8th Jul 2024`,
     title: `A Complete Guide to the Benefits of Buccal Massage`,
     preview: `In the world of therapeutic jaw treatments, buccal massage, also referred to as intraoral massage, is a cutting-edge method. By using an innovative approach, deeper tissues that are unreachable to s...`,
-    link: `/blog/completeGuideToTheBenefitsOfBuccalMassage`,
+    link: `/blog/complete-guide-to-benefits-of-buccal-massage`,
     image: buccalMassageBenefits,
     alt: "Facial massage performed by a massage therapist for relaxation and rejuvenation",
   },
