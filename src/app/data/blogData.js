@@ -38,7 +38,7 @@ export const blogData = {
     preview: `Manual Lymphatic Drainage (MLD) is a specialised form of massage therapy designed to stimulate the lymphatic system, which plays a crucial role in maintaining the body's fluid balance and immune function.`,
     link: `/blog/manual-lymphatic-drainage-therapy-benefits-and-how-to-perform`,
     image: mld,
-    alt: "TBA",
+    alt: "Marta massaging foot during manual lymphatic drainage massage",
   },
   temp: {
     author: `Marta Suchanska`,
