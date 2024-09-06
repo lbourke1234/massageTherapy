@@ -57,6 +57,32 @@ const Template = () => {
             <li className="cm800:text-[1.2em]">{``}</li>
             <li className="cm800:text-[1.2em]">{``}</li>
           </ul>
+          <ul className="list-disc ml-8 pb-4">
+            <li className="cm800:text-[1.2em]">
+              <span className="font-bold "> </span>
+              {``}
+            </li>
+            <li className="cm800:text-[1.2em]">
+              <span className="font-bold "> </span>
+              {``}
+            </li>
+            <li className="cm800:text-[1.2em]">
+              <span className="font-bold "> </span>
+              {``}
+            </li>
+            <li className="cm800:text-[1.2em]">
+              <span className="font-bold "> </span>
+              {``}
+            </li>
+            <li className="cm800:text-[1.2em]">
+              <span className="font-bold "> </span>
+              {``}
+            </li>
+            <li className="cm800:text-[1.2em]">
+              <span className="font-bold "> </span>
+              {``}
+            </li>
+          </ul>
 
           <BespokeButton />
         </div>

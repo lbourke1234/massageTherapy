@@ -2,6 +2,7 @@ import youAreWhatYouEat from "/public/resources/webp/blog eat.webp";
 import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
 import mld from "/public/resources/blogPosts/mld.webp";
+import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -39,6 +40,15 @@ export const blogData = {
     link: `/blog/manual-lymphatic-drainage-therapy-benefits-and-how-to-perform`,
     image: mld,
     alt: "Marta massaging foot during manual lymphatic drainage massage",
+  },
+  sportsMassage: {
+    author: `Marta Suchanska`,
+    date: `6th Sep 2024`,
+    title: `Benefits of Sports Massage: Why Every Athlete Should Consider It`,
+    preview: `Sports massage is a specialized form of massage therapy that is tailored specifically to the needs of athletes and physically active individuals. But what exactly does that mean?`,
+    link: `/blog/benefits-of-sports-massage-why-every-athlete-should-consider-it`,
+    image: sportsMassagePic,
+    alt: "Marta massaging a clinet during a sports massage - massage for athletes",
   },
   temp: {
     author: `Marta Suchanska`,
