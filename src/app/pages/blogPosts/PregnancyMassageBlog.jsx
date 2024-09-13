@@ -39,13 +39,13 @@ physical discomfort. As your body adapts to accommodate the growing life within,
 may find yourself dealing with new aches, pains, and stresses. It is during this time that
 pregnancy massage can become an important part of your self-care routine.`}
           </p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 py-2">
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2 py-2">
             {" "}
             {`But what exactly is `}
             <Link href={"/services/pregnancy-massage"}>pregnancy massage</Link>{" "}
             {`, and why is it becoming increasingly
 popular among expectant mothers?`}
-          </h3>
+          </h2>
           <p className="cm800:text-[1.2em]">
             {`In this blog post, we will explore together the
 pros and cons of `}
@@ -54,7 +54,7 @@ pros and cons of `}
             {`, from what happens during a session to the
 numerous benefits it can offer you and your baby.`}
           </p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`What is a Pregnancy Massage?`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`What is a Pregnancy Massage?`}</h2>
           <p className="cm800:text-[1.2em]">
             <Link href={"/services/pregnancy-massage"}>Pregnancy massage</Link>{" "}
             {` is a specialized type of `} <Link href={"/"}>massage therapy</Link>{" "}
@@ -97,7 +97,7 @@ experiencing that during one of the most important times of your life. Pregnancy
 
 massage can be a sanctuary, a moment of tranquillity so important while preparing for
 the arrival of a newborn.`}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`What Happens During a Pregnancy Massage?`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`What Happens During a Pregnancy Massage?`}</h2>
           <p className="cm800:text-[1.2em]">
             {`If you have never had a `}{" "}
             <Link href={"/services/pregnancy-massage"}>pregnancy massage</Link>{" "}
@@ -127,7 +127,7 @@ safe for pregnancy.`}{" "}
               local businesses.{" "}
             </span>
           </p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Safety of Pregnancy Massage`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Safety of Pregnancy Massage`}</h2>
           <p className="cm800:text-[1.2em]">
             {`One of the most common questions about `}{" "}
             <Link href={"/services/pregnancy-massage"}>pregnancy massage</Link>{" "}
@@ -159,7 +159,7 @@ second trimester onward.`}
             and comfort are top priorities can make it easier to relax and enjoy the many benefits
             that <Link href={"/services/pregnancy-massage"}>pregnancy massage</Link> has to offer.
           </p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Benefits of Pregnancy Massage`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Benefits of Pregnancy Massage`}</h2>
           <p className="cm800:text-[1.2em]">
             {`The benefits of `} <Link href={"/services/pregnancy-massage"}>pregnancy massage</Link>{" "}
             {`are both wide-ranging and profound, impacting not
@@ -223,7 +223,7 @@ pregnancy progresses. A `}{" "}
 fall asleep and enjoy a restful night.`}
             </li>
           </ul>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`What to Expect During a Pregnancy Massage`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`What to Expect During a Pregnancy Massage`}</h2>
           <p className="cm800:text-[1.2em]">
             <span className="font-bold ">
               {" "}
@@ -240,7 +240,7 @@ focus on areas that tend to carry the most tension during pregnancy, such as `}{
           <p className="cm800:text-[1.2em]">{`Communication is crucial throughout the session. If at any point you feel uncomfortable
 or need adjustments, do not hesitate to speak up. I am here to make sure you feel
 completely at ease.`}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Who Can Benefit from Pregnancy Massage?`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Who Can Benefit from Pregnancy Massage?`}</h2>
           <p className="cm800:text-[1.2em]">
             {``} <Link href={"/services/pregnancy-massage"}>Pregnancy massage</Link>{" "}
             {`is beneficial for most pregnant women, especially those
@@ -276,10 +276,10 @@ manage these emotions, leading to a more positive overall pregnancy experience.`
 massage, especially if you have any high-risk conditions, such as preeclampsia, or if
 you have experienced complications during your pregnancy. Some medical conditions
 may require special considerations or may contraindicate massage altogether.`}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">
             {``} <Link href={"/services/pregnancy-massage"}>Pregnancy massage</Link>{" "}
             {`by Trimester`}
-          </h3>
+          </h2>
           <p className="cm800:text-[1.2em]">
             {`As your pregnancy progresses, your body's needs and the focus of your massage will
 change. Here is how `}{" "}
@@ -309,7 +309,7 @@ body for labour. Techniques may be used to increase flexibility, `}{" "}
 possible as you approach your due date. Special care is taken to avoid any pressure
 points that could potentially induce labour prematurely.`}
           </p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`When to Avoid Pregnancy Massage`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`When to Avoid Pregnancy Massage`}</h2>
           <p className="cm800:text-[1.2em]">
             {`While `} <Link href={"/services/pregnancy-massage"}>pregnancy massage</Link>{" "}
             {`is generally safe and beneficial, there are certain situations
@@ -341,7 +341,7 @@ can ensure that `}{" "}
             <Link href={"/services/pregnancy-massage"}>pregnancy massage</Link>{" "}
             {`is a safe and beneficial part of your prenatal care.`}
           </p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Techniques Used in Pregnancy Massage`}</h3>
+          <h2 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{`Techniques Used in Pregnancy Massage`}</h2>
           <p className="cm800:text-[1.2em]">{`Pregnancy massage utilizes a variety of techniques that are safe and effective for
 expectant mothers:`}</p>
           <ul className="list-decimal ml-8 pb-4">
