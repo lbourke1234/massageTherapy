@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Massage Therapy in London, Marylebone by Marta",
+  title: "Massage Therapy in Marylebone, London by Marta",
   description:
     "Massage therapy London, Marylebone. Treatments include manual lymphatic drainage massage, pregnancy massage, Swedish massage, deep tissue massage, sports and recovery massage.",
   keywords:
