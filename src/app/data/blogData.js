@@ -3,6 +3,7 @@ import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
 import mld from "/public/resources/blogPosts/mld.webp";
 import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
+import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -49,6 +50,15 @@ export const blogData = {
     link: `/blog/benefits-of-sports-massage-why-every-athlete-should-consider-it`,
     image: sportsMassagePic,
     alt: "Marta massaging a clinet during a sports massage - massage for athletes",
+  },
+  pregnancy: {
+    author: `Marta Suchanska`,
+    date: `12th Sep 2024`,
+    title: `Motherhood in Comfort: How Pregnancy Massage Supports Your Journey.`,
+    preview: `Pregnancy is a transformative time filled with excitement, anticipation, and sometimes physical discomfort. As your body adapts to accommodate the growing life within, you may find yourself dealing with new aches, pains, and stresses.`,
+    link: `/blog/pregnancy-massage`,
+    image: pregnancyPic,
+    alt: "Marta massaging the head of a client - relaxing and comforting",
   },
   temp: {
     author: `Marta Suchanska`,

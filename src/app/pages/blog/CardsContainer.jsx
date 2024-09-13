@@ -10,6 +10,7 @@ const CardsContainer = () => {
       <PreviewCard data={blogData.completeGuideToTheBenefitsOfBuccalMassage} />
       <PreviewCard data={blogData.mld} />
       <PreviewCard data={blogData.sportsMassage} />
+      <PreviewCard data={blogData.pregnancy} />
     </div>
   );
 };
