@@ -16,10 +16,10 @@ const HeroTextLeftImageRight = () => {
           <div className="flex flex-col w-[90%] m-auto cm1050:pt-44 cmMobile:pb-8 cmMobile:pt-6 cm1050:px-8">
             <div className="">
               <h1 className="cmMobile:text-2em cm600:text-3em text-black font-medium mb-2">
-                Massage Therapy in Marylebone, London
+                MASSAGE THERAPY IN MARYLEBONE LONDON
               </h1>
               <h2 className="text-black cmMobile:text-[1.5em] cm600:text-2xl">
-                Discover the Benefits of Professional Massage Therapy in Marylebone, London
+                Harley Street located clinic offering professional massage therapy services
               </h2>
               <div className="flex gap-4">
                 <HeroButtomMain />
