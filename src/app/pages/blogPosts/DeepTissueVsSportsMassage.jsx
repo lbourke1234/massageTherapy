@@ -416,9 +416,9 @@ const DeepTissueVsSportsMassage = () => {
             might be better
           </Heading3>
           <Paragraph>
-            For individuals who have a specific injury they want to address, Sports Massage is often
+            {`For individuals who have a specific injury they want to address, Sports Massage is often
             a better option. It is highly adaptable and can be tailored to suit the client's level
-            of comfort while still providing effective treatment.
+            of comfort while still providing effective treatment.`}
           </Paragraph>
           <Heading2>
             How do Deep tissue and sports massages differ in their approach to injury recovery?
