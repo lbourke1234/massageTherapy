@@ -4,6 +4,7 @@ import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.we
 import mld from "/public/resources/blogPosts/mld.webp";
 import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
 import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
+import deepVsSports from "/public/resources/blogPosts/deep-tissue-vs-sports-massage.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -59,6 +60,18 @@ export const blogData = {
     link: `/blog/pregnancy-massage`,
     image: pregnancyPic,
     alt: "Marta massaging the head of a client - relaxing and comforting",
+  },
+  deepTissueVsSports: {
+    author: `Marta Suchanska`,
+    date: `20th Sep 2024`,
+    title: `Deep Tissue or Sports Massage? Understanding the Key Differences and Benefits`,
+    preview: `Among the various techniques available, two of the most discussed and requested are deep
+tissue massage and sports massage. While both methods share certain therapeutic benefits,
+they serve different purposes, involve distinct techniques, and are suitable for particular
+situations.`,
+    link: `/blog/deep-tissue-vs-sports-massage`,
+    image: deepVsSports,
+    alt: "Marta massaging the calf muscle of a client gently",
   },
   temp: {
     author: `Marta Suchanska`,
