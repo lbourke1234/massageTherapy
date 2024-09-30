@@ -5,6 +5,7 @@ import mld from "/public/resources/blogPosts/mld.webp";
 import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
 import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
 import deepVsSports from "/public/resources/blogPosts/deep-tissue-vs-sports-massage.webp";
+import myofascialReleasePhoto from "/public/resources/blogPosts/myofascial-release.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -72,6 +73,20 @@ situations.`,
     link: `/blog/deep-tissue-vs-sports-massage`,
     image: deepVsSports,
     alt: "Marta massaging the calf muscle of a client gently",
+  },
+  myofascialRelease: {
+    author: `Marta Suchanska`,
+    date: `30th Sep 2024`,
+    title: `The Power of Myofascial Release: Unlocking Pain Relief and Enhanced
+Mobility`,
+    preview: `Myofascial Release (MFR) is a specialized type of manual therapy that focuses on
+relieving pain by targeting the fascia, a web of connective tissue that surrounds and
+supports muscles throughout the body. Unlike more traditional forms of massage,
+such as Swedish massage or Deep Tissue Massage, which focus primarily on
+muscle relaxation or tension release, MFR goes deeper.`,
+    link: `/blog/myofascial-release-pain-relief-enhanced-mobility`,
+    image: myofascialReleasePhoto,
+    alt: "Marta massaging a client performing Myofascial Release Therapy",
   },
   temp: {
     author: `Marta Suchanska`,
