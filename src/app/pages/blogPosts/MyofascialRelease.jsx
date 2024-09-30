@@ -145,9 +145,10 @@ const MyofascialRelease = () => {
             <Link href={"/blog/benefits-of-sports-massage-why-every-athlete-should-consider-it"}>
               an athlete suffering from shoulder pain
             </Link>{" "}
-            a due to overuse may find immediate relief in the joint's mobility after just one
+            {`a due to overuse may find immediate relief in the joint's mobility after just one
             session. With ongoing MFR therapy, the athlete may also experience long-term benefits,
-            such as improved <Bold>posture</Bold>, reduced inflammation, and better overall{" "}
+            such as improved`}{" "}
+            <Bold>posture</Bold>, reduced inflammation, and better overall{" "}
             <Bold>muscle function</Bold>.
           </Paragraph>
           <Heading2>Is It Safe to Perform Myofascial Release at Home?</Heading2>
