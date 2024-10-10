@@ -33,56 +33,6 @@ const Template = () => {
           <p className="cm800:text-[1.2em]">{``}</p>
           <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 py-2">{``}</h3>
           <p className="cm800:text-[1.2em]">{``}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <p className="cm800:text-[1.2em]">{``}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <p className="cm800:text-[1.2em]">{``}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <p className="cm800:text-[1.2em]">{``}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <p className="cm800:text-[1.2em]">{``}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <p className="cm800:text-[1.2em]">{``}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <p className="cm800:text-[1.2em]">{``}</p>
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <p className="cm800:text-[1.2em]">{``}</p>
-
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">{``}</h3>
-          <ul className="list-disc ml-8 pb-4">
-            <li className="cm800:text-[1.2em]">{``}</li>
-            <li className="cm800:text-[1.2em]">{``}</li>
-            <li className="cm800:text-[1.2em]">{``}</li>
-            <li className="cm800:text-[1.2em]">{``}</li>
-            <li className="cm800:text-[1.2em]">{``}</li>
-            <li className="cm800:text-[1.2em]">{``}</li>
-          </ul>
-          <ul className="list-disc ml-8 pb-4">
-            <li className="cm800:text-[1.2em]">
-              <span className="font-bold "> </span>
-              {``}
-            </li>
-            <li className="cm800:text-[1.2em]">
-              <span className="font-bold "> </span>
-              {``}
-            </li>
-            <li className="cm800:text-[1.2em]">
-              <span className="font-bold "> </span>
-              {``}
-            </li>
-            <li className="cm800:text-[1.2em]">
-              <span className="font-bold "> </span>
-              {``}
-            </li>
-            <li className="cm800:text-[1.2em]">
-              <span className="font-bold "> </span>
-              {``}
-            </li>
-            <li className="cm800:text-[1.2em]">
-              <span className="font-bold "> </span>
-              {``}
-            </li>
-          </ul>
 
           <BespokeButton />
         </div>
