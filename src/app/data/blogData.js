@@ -6,6 +6,7 @@ import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
 import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
 import deepVsSports from "/public/resources/blogPosts/deep-tissue-vs-sports-massage.webp";
 import myofascialReleasePhoto from "/public/resources/blogPosts/myofascial-release.webp";
+import neckPainPic from "/public/resources/blogPosts/neck-pain.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -87,6 +88,17 @@ muscle relaxation or tension release, MFR goes deeper.`,
     link: `/blog/myofascial-release-pain-relief-enhanced-mobility`,
     image: myofascialReleasePhoto,
     alt: "Marta massaging a client performing Myofascial Release Therapy",
+  },
+  neckPain: {
+    author: `Marta Suchanska`,
+    date: `10th Oct 2024`,
+    title: `Neck Pain and Headaches: Causes and the Effective Ways to Relieve the Pain`,
+    preview: `Neck pain and headaches often go hand in hand, and there are various causes that
+can trigger both issues simultaneously. Identifying the root cause is the first step
+towards effective treatment.`,
+    link: `/blog/neck-pain-headaches-causes-and-effective-pain-relief`,
+    image: neckPainPic,
+    alt: "Marta massaging head, neck and shoulder of client - ralaxing massage",
   },
   temp: {
     author: `Marta Suchanska`,
