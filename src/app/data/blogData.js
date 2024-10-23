@@ -7,6 +7,7 @@ import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
 import deepVsSports from "/public/resources/blogPosts/deep-tissue-vs-sports-massage.webp";
 import myofascialReleasePhoto from "/public/resources/blogPosts/myofascial-release.webp";
 import neckPainPic from "/public/resources/blogPosts/neck-pain.webp";
+import lowBackPain from "/public/resources/blogPosts/low-back-pain.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -99,6 +100,15 @@ towards effective treatment.`,
     link: `/blog/neck-pain-headaches-causes-and-effective-pain-relief`,
     image: neckPainPic,
     alt: "Marta massaging head, neck and shoulder of client - ralaxing massage",
+  },
+  LowBackPain: {
+    author: `Marta Suchanska`,
+    date: `21st October 2024`,
+    title: `Lower Back Pain - Causes, Symptoms, Prevention, and the Best Massage Therapy Options`,
+    preview: `Overstretching or tearing muscles or ligaments in the lower back is one of the most common causes of acute low back pain. This can happen due to improper lifting, sudden movements, or overuse from activities like sports or physical labor. `,
+    link: `/blog/lower-back-pain-causes-symptoms-and-prevention`,
+    image: lowBackPain,
+    alt: "TBA",
   },
   temp: {
     author: `Marta Suchanska`,
