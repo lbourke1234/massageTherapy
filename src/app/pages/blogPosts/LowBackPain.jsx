@@ -38,7 +38,7 @@ const LowBackPain = () => {
         </Link>
         <div className="pt-4">
           <Heading1>
-            Lower Back Pain - Causes, Symptoms, Prevention, and the Best Massage Therapy Options
+            Beat the back ache: the most common causes and massage therapy for pain-free life
           </Heading1>
           <Paragraph>
             Lower back pain is a common condition that affects millions of people worldwide and the
@@ -141,24 +141,18 @@ const LowBackPain = () => {
           <Heading2>What are you going to achieve?</Heading2>
           <UnorderedList>
             <ListItem>
-              <Bold>Muscle and ligaments relaxation:</Bold> Massage therapy helps release tight
-              muscles, easing tension and reducing pain in the lower back.
-            </ListItem>
-            <ListItem>
-              <Bold>Improved circulation:</Bold> Increased blood flow brings essential nutrients and
-              oxygen to the affected area, promoting healing and reducing inflammation.
-            </ListItem>
-            <ListItem>
-              <Bold>Stress Reduction:</Bold> Massage therapy also helps reduce stress, which can
-              exacerbate muscle tension and back pain.
+              Muscle and ligaments relaxation = better circulation = stress and pain reduction
             </ListItem>
           </UnorderedList>
           <Heading2>What Are the Best Massage Techniques for Treating Lower Back Pain?</Heading2>
           <Paragraph>
             Different massage techniques offer varying benefits for lower back pain. It depends on
             your sensitivity to pain and severity of your conditions. I am a big fan of using a
-            <Link href={"/services/signature-massage"}> blend of techniques</Link> providing long
-            lasting benefits, that would be:
+            <Link target="_blank" href={"/services/signature-massage"}>
+              {" "}
+              blend of techniques
+            </Link>{" "}
+            providing long lasting benefits, that would be:
           </Paragraph>
           <UnorderedList>
             <ListItem>
@@ -190,31 +184,26 @@ const LowBackPain = () => {
             every 2-4 weeks can help prevent flare-ups and manage symptoms long-term, so you can
             start managing them on your own.
           </Paragraph>
-          <Heading2>
-            Are There Any Risks Associated with Massage Therapy for Lower Back Pain?
-          </Heading2>
           <Paragraph>
-            While massage therapy is generally safe, there are certain conditions, such as
-            fractures, infections, or severe inflammation that may exclude massage therapy as an
-            option for a while. Always communicate with your therapist about any underlying health
-            conditions to ensure safe and effective treatment.
-          </Paragraph>
-          <Paragraph>
-            I hope you found this article useful. I do know that lower back pain can significantly
+            I hope you found this article useful. I do know that low back pain can significantly
             impact your daily life, but with the right care, it is manageable. Whether you are
             dealing with acute pain from an injury or chronic discomfort, massage therapy offers a
-            natural, effective way to relieve symptoms and improve your quality of life.{" "}
+            natural, effective way to relieve symptoms and improve your quality of life.
           </Paragraph>
           <Paragraph>
-            By understanding the causes, symptoms, and best treatment options for lower back pain,
-            you are already on the path to a pain-free life. Ready to take the next step? Schedule
-            your massage therapy session today and start your journey to better back health!
+            By understanding the causes, symptoms, and best treatment options for low back pain, you
+            are already on the path to a pain-free life. Ready to take the next step? Schedule your
+            massage therapy session today and start your journey to better back health!
           </Paragraph>
           <BespokeButton />
           <div className="mt-5">
-            <Paragraph>
-              <Bold>References:</Bold>{" "}
+            <Paragraph className={"mb-[-4px]"}>
+              <Bold>Marta Suchanska</Bold>
             </Paragraph>
+            <Paragraph>
+              <Bold>Certified Massage Therapist/Year 4 Student Osteopath</Bold>
+            </Paragraph>
+            <Paragraph className={"mb-[2px]"}>References: </Paragraph>
             <Reference link={"https://pubmed.ncbi.nlm.nih.gov/15628775/"}>
               Adams, M.A. (2006a). The biomechamics of back pain. Edinburgh; New York: Churchill
               Livingstone Elsevier.
