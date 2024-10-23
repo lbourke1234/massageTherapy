@@ -201,7 +201,7 @@ const LowBackPain = () => {
               <Bold>Marta Suchanska</Bold>
             </Paragraph>
             <Paragraph>
-              <Bold>Certified Massage Therapist/ Year 4 Student Osteopath</Bold>
+              <Bold>Certified Massage Therapist/Year 4 Student Osteopath</Bold>
             </Paragraph>
             <Paragraph className={"mb-[2px]"}>References: </Paragraph>
             <Reference link={"https://pubmed.ncbi.nlm.nih.gov/15628775/"}>
