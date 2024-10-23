@@ -52,7 +52,7 @@ const LowBackPain = () => {
             In this guide, we will explore together everything from the primary causes of low back
             pain to the most effective massage therapy options for managing and relieving it.
           </Paragraph>
-          <Paragraph>Let's start.</Paragraph>
+          <Paragraph>{`Let's start.`}</Paragraph>
           <Heading2>What are the Primary Causes of Lower Back Pain?</Heading2>
           <Paragraph>
             Before I start explaining the causes, I have both good and bad news. The good news is
@@ -109,7 +109,8 @@ const LowBackPain = () => {
               exercise may enormously help you with this condition.
             </ListItem>
             <ListItem>
-              <Bold>Sciatica:</Bold> the most common complaint of all the back pains. I meet someone
+              <Bold>Sciatica:</Bold>{" "}
+              {`the most common complaint of all the back pains. I meet someone
               who says: I suffer from sciatica almost every day. Let's clarify a few things first.
               There is not such a condition like sciatica, it is a symptom of a problem you are
               experiencing. Sciatic nerve, which runs from the lower back down to the legs, may get
@@ -119,7 +120,7 @@ const LowBackPain = () => {
               they damaged the nerve root, but do not worry 90% of my clients are not really suffer
               from nerve root compression problems, but muscles spasm, that may give then the same
               symptoms, like gluteus minimus or medius, piriformis or QL spasm. Massage therapy and
-              exercises may beat the discomfort effectively!
+              exercises may beat the discomfort effectively!`}
             </ListItem>
           </UnorderedList>
           <Paragraph>
