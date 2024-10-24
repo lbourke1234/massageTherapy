@@ -17,9 +17,12 @@ const ContactInfo = () => {
         </ul>
         <ul>
           <li className="text-customYellow pb-6 text-[1.4em] list-none">Hours</li>
-          <li className="list-none pb-4">Mon - Tue - Thu 9am - 8pm</li>
-          <li className="list-none pb-4">Wed - Fri - Sat Closed</li>
-          <li className="list-none pb-4">Sun 9am - 3pm</li>
+          <li className="list-none pb-4">Mon - 9am - 8pm</li>
+          <li className="list-none pb-4">Tue - 9am - 8pm</li>
+          <li className="list-none pb-4">Wed - 9am - 3pm</li>
+          <li className="list-none pb-4">Thur - 9am - 8pm</li>
+          <li className="list-none pb-4">Sat - 10am - 3pm</li>
+          <li className="list-none pb-4">Sun - 10am - 3pm</li>
         </ul>
         <ul>
           <li className="text-customYellow pb-6 text-[1.4em] list-none">Contact</li>
