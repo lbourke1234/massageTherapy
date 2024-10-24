@@ -2,9 +2,9 @@ import LowBackPain from "@/app/pages/blogPosts/LowBackPain";
 import React from "react";
 
 export const metadata = {
-  title: "Deep Tissue Massage vs. Sports Massage: Key Differences, Benefits, and Techniques",
+  title: "Causes of Lower Back Pain - Symptoms and Prevention",
   description:
-    "Discover the key differences between deep tissue massage and sports massage, their unique benefits, and how each is performed. Learn which massage technique is right for your needs.",
+    "Lower back pain is a common condition that affects millions of people worldwide and the most frequent condition my clients struggle with.",
 };
 
 const page = () => {
