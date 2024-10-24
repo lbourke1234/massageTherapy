@@ -148,7 +148,7 @@ const LowBackPain = () => {
           <Paragraph>
             Different massage techniques offer varying benefits for lower back pain. It depends on
             your sensitivity to pain and severity of your conditions. I am a big fan of using a
-            <Link target="_blank" href={"/services/signature-massage"}>
+            <Link className="text-blue-600" target="_blank" href={"/services/signature-massage"}>
               {" "}
               blend of techniques
             </Link>{" "}

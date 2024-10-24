@@ -8,6 +8,7 @@ import deepVsSports from "/public/resources/blogPosts/deep-tissue-vs-sports-mass
 import myofascialReleasePhoto from "/public/resources/blogPosts/myofascial-release.webp";
 import neckPainPic from "/public/resources/blogPosts/neck-pain.webp";
 import lowBackPain from "/public/resources/blogPosts/low-back-pain.webp";
+import lowBackPain2 from "/public/resources/blogPosts/back-2.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -104,10 +105,22 @@ towards effective treatment.`,
   LowBackPain: {
     author: `Marta Suchanska`,
     date: `21st October 2024`,
-    title: `Lower Back Pain - Causes, Symptoms, Prevention, and the Best Massage Therapy Options`,
+    title: `Beat the back ache: the most common causes and massage therapy for pain-free life`,
     preview: `Overstretching or tearing muscles or ligaments in the lower back is one of the most common causes of acute low back pain. This can happen due to improper lifting, sudden movements, or overuse from activities like sports or physical labor. `,
     link: `/blog/lower-back-pain-causes-symptoms-and-prevention`,
     image: lowBackPain,
+    alt: "TBA",
+  },
+  lowBackPain2: {
+    author: `Marta Suchanska`,
+    date: `23rd Oct 2024`,
+    title: `How can lifestyle choices contribute to low back pain and a few essential tips on how to
+tackle them.`,
+    preview: `Before I start to talk about poor posture, just relax, I do not know anyone with a
+perfect posture. We live in challenging times when keeping your posture right all the time is
+impossible, but you can introduce some changes that will improve your wellbeing.`,
+    link: `/blog/lower-back-pain-lifestyle-choices-and-essential-tips`,
+    image: lowBackPain2,
     alt: "TBA",
   },
   temp: {
