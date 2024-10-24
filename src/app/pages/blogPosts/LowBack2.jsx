@@ -145,8 +145,8 @@ const LowBack2 = () => {
                 "https://www.amazon.co.uk/Goodman-Differential-Diagnosis-Physical-Therapists/dp/0323722040"
               }
             >
-              Heick, J. and Lazaro, R.T. (2022). Goodman and Snyder's Differential Diagnosis for
-              Physical Therapists - E-Book. Elsevier Health Sciences.
+              {`Heick, J. and Lazaro, R.T. (2022). Goodman and Snyder's Differential Diagnosis for
+              Physical Therapists - E-Book. Elsevier Health Sciences.`}
             </Reference>
             <Reference
               link={"https://www.amazon.co.uk/Back-Stability-Christopher-M-Norris/dp/0736070176"}
