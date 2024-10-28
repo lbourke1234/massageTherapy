@@ -72,8 +72,15 @@ const LowBack2 = () => {
               and try to eliminate those who are the unhealthiest ones, or every time you feel an
               urge to eat something sweet go for a walk, just move your body, so your brain can
               build a new habit. I am a nutritional advisor, if you need any support in this topic,
-              send me a message! You can also read more about healthy nutritional habits here or
-              book a consultation with me.
+              send me a message! You can also read more about healthy nutritional habits{" "}
+              <Link
+                className="text-blue-500 underline"
+                target="_blank"
+                href={"/blog/you-are-what-you-eat"}
+              >
+                here
+              </Link>{" "}
+              or book a consultation with me.
             </ListItem>
             <ListItem className="mb-2">
               <Bold>Improper or excessive work out:</Bold> We live in an era of beautiful bodies,
