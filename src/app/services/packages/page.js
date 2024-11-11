@@ -1,4 +1,5 @@
 import { packageService } from "@/app/data/servicesData";
+import PackagesServices from "@/app/pages/services/PackagesServices";
 import Services from "@/app/pages/services/Services";
 import React from "react";
 
@@ -11,7 +12,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Services data={packageService} />
+      <PackagesServices data={packageService} />
     </>
   );
 };
