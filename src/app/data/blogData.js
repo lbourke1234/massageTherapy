@@ -9,6 +9,7 @@ import myofascialReleasePhoto from "/public/resources/blogPosts/myofascial-relea
 import neckPainPic from "/public/resources/blogPosts/neck-pain.webp";
 import lowBackPain from "/public/resources/blogPosts/low-back-pain.webp";
 import lowBackPain2 from "/public/resources/blogPosts/back-2.webp";
+import tmjPic from "/public/resources/blogPosts/tmj.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -109,7 +110,7 @@ towards effective treatment.`,
     preview: `Overstretching or tearing muscles or ligaments in the lower back is one of the most common causes of acute low back pain. This can happen due to improper lifting, sudden movements, or overuse from activities like sports or physical labor. `,
     link: `/blog/lower-back-pain-causes-symptoms-and-prevention`,
     image: lowBackPain,
-    alt: "TBA",
+    alt: "Marta giving a relaxing back massage",
   },
   lowBackPain2: {
     author: `Marta Suchanska`,
@@ -121,7 +122,17 @@ perfect posture. We live in challenging times when keeping your posture right al
 impossible, but you can introduce some changes that will improve your wellbeing.`,
     link: `/blog/lower-back-pain-lifestyle-choices-and-essential-tips`,
     image: lowBackPain2,
-    alt: "TBA",
+    alt: "Marta giving a lower back massage to client",
+  },
+  tmj: {
+    author: `Marta Suchanska`,
+    date: `12th Nov 2024`,
+    title: `Struggling with Jaw Pain? Here's How Massage Therapy and Home Care Can
+Relieve Your TMJ Symptoms`,
+    preview: `The temporomandibular joint, or TMJ, is the hinge joint that connects your lower jaw (mandible) to your skull, located just in front of each ear.`,
+    link: `/blog/tmj-massage`,
+    image: tmjPic,
+    alt: "Woman with TMJ joint pain",
   },
   temp: {
     author: `Marta Suchanska`,
