@@ -19,7 +19,7 @@ const HeroTextLeftImageRight = () => {
                 MASSAGE THERAPY IN MARYLEBONE LONDON
               </h1>
               <h2 className="text-black cmMobile:text-[1.5em] cm600:text-2xl">
-                Harley Street located clinic offering professional massage therapy services
+                Crawford Street located clinic offering professional massage therapy services
               </h2>
               <div className="flex gap-4">
                 <HeroButtomMain />
