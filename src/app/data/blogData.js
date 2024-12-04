@@ -1,6 +1,7 @@
 import youAreWhatYouEat from "/public/resources/webp/blog eat.webp";
 import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
+import posturePicture from "/public/resources/webp/Marta_Osteopath-241.webp";
 import mld from "/public/resources/blogPosts/mld.webp";
 import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
 import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
@@ -133,6 +134,18 @@ Relieve Your TMJ Symptoms`,
     link: `/blog/tmj-massage`,
     image: tmjPic,
     alt: "Woman with TMJ joint pain",
+  },
+  postureCorrection: {
+    author: `Marta Suchanska`,
+    date: `4th Dec 2024`,
+    title: `Posture Matters: Unlocking Its Types, Benefits, and Secrets to Better
+Alignment.`,
+    preview: `Have you ever caught yourself slouching at your desk or standing with all your
+weight on one leg? If so, you're not alone. Many of us do not pay attention to our
+posture until a stiff neck, aching back, or tired muscles remind us of its importance.`,
+    link: `/blog/posture-correction-benefits-and-secrets-to-better-alignment`,
+    image: posturePicture,
+    alt: "Woman holding a yoga pose with correct posture",
   },
   temp: {
     author: `Marta Suchanska`,
