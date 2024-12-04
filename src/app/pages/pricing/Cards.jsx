@@ -9,7 +9,7 @@ const Cards = () => {
       <div className="flex flex-wrap text-black pb-4 cmMobile:w-full cm1500:w-3/4 m-auto">
         <Card data={pricingData.bespokeMassage} />
         <Card data={pricingData.buccalMassage} />
-        <Card data={pricingData.nutritionalAdvice} />
+        <Card data={pricingData.postureCorrection} />
         <Card data={pricingData.packages} />
       </div>
     </div>

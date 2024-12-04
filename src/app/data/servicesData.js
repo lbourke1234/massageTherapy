@@ -11,6 +11,7 @@ import headPicHome from "/public/resources/webp/Marta_Osteopath-403.webp";
 import relaxingPicHome from "/public/resources/services/Relaxing.webp";
 import packagesPicHome from "/public/resources/webp/Marta_Osteopath-410.webp";
 import buccalMassagePicHome from "/public/resources/webp/Marta_Osteopath-388.webp";
+import posturePic from "/public/resources/webp/Marta_Osteopath-241.webp";
 
 const deepTissueMassageHome = {
   name: `Deep Tissue - Remedial Massage`,
@@ -87,6 +88,13 @@ const nutritionalAdvice = {
   mainImage: mainNutrition,
   mainImageAlt: `Healthy Ingredients on a Chopping Board: Avocado, Eggs, and Fresh Vegetables`,
   link: `/services/nutritional-advice`,
+  className: "",
+};
+const postureCorrection = {
+  name: `Posture Correction`,
+  mainImage: posturePic,
+  mainImageAlt: `Marta giving a relaxing back massage`,
+  link: `/services/posture-correction`,
   className: "",
 };
 const packages = {
@@ -324,6 +332,47 @@ export const nutritionalAdviceService = {
   ],
   key: 11,
 };
+export const postureCorrectionService = {
+  name: `Posture Correction`,
+  subImage: posturePic,
+  subImageAlt: `Healthy Ingredients on a Chopping Board: Avocado, Eggs, and Fresh Vegetables`,
+  heading: `Rediscover ease and confidence in your movements.`,
+  subHeading: `Poor posture is more than just a bad habit—it can lead to chronic pain, reduced
+mobility, and even long-term health issues. Our Posture Correction treatment is a
+specialized therapeutic service designed to address the root causes of postural
+imbalance and guide your body back to its natural alignment.`,
+  howDoesItWork: [
+    `Our Posture Correction therapy begins with a detailed postural assessment to
+identify areas of imbalance and strain. Using advanced manual techniques, we
+release tension in tight muscles, lengthen shortened areas, and strengthen
+underused ones. Techniques such as deep tissue massage, myofascial release, and
+targeted mobilization are employed to realign your body and restore balance. We
+provide expert guidance on posture-friendly practices to help you maintain your
+results over time.`,
+  ],
+  benefits: [
+    `Alleviates tension and pain caused by poor posture.`,
+    `Improves spinal alignment and joint mobility.`,
+    `Reduces muscle imbalances and compensatory patterns.`,
+    `Enhances body awareness and promotes healthier posture habits.`,
+    `Prevents future strain and discomfort.`,
+  ],
+  whoCanBenefit: [
+    `Posture Correction Treatment is ideal for anyone suffering from aches, stiffness, or
+fatigue caused by prolonged sitting, standing, or repetitive activities. It is an excellent
+choice for those who wish to actively change their posture patterns, whether to
+improve their appearance, boost confidence, or enhance their overall body
+mechanics.`,
+    `It is especially effective for those experiencing:`,
+  ],
+  whoCanBenefitList: [
+    `Forward head posture ("text neck").`,
+    "Rounded shoulders.",
+    "Lower back pain due to poor posture.",
+    "Occupational strains from desk work or heavy lifting.",
+  ],
+  key: 13,
+};
 export const packageService = {
   name: `Packages`,
   subImage: packagesPicHome,
@@ -357,6 +406,6 @@ export const homePageServicesMap = [
   signatureMassageHome,
   headMassageHome,
   buccalMassageHome,
-  nutritionalAdvice,
+  postureCorrection,
   packages,
 ];

@@ -2,6 +2,7 @@ import bespoke from "/public/resources/webp/Marta_Osteopath-373.webp";
 import nutritional from "/public/resources/webp/Pancake.webp";
 import packages from "/public/resources/webp/Marta_Osteopath-224.webp";
 import buccal from "/public/resources/webp/Marta_Osteopath-388.webp";
+import posturePic from "/public/resources/webp/Marta_Osteopath-241.webp";
 
 export const pricingData = {
   bespokeMassage: {
@@ -14,6 +15,12 @@ export const pricingData = {
     heading: `Nutritional Advice`,
     bullets: [`Initial consultation - £155`, `Follow up - £115`],
     src: nutritional,
+    alt: "Healthy pancake topped with fresh berries for a nutritious breakfast",
+  },
+  postureCorrection: {
+    heading: `Posture Correction`,
+    bullets: [`On-site (90 min) - £180`, `Online session (60 min) - £135`],
+    src: posturePic,
     alt: "Healthy pancake topped with fresh berries for a nutritious breakfast",
   },
   packages: {
