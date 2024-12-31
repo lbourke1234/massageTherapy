@@ -5,6 +5,7 @@ import { blogData } from "../../data/blogData";
 const CardsContainer = () => {
   return (
     <div className="w-full cm1200:w-[70%] m-auto flex flex-wrap">
+      <PreviewCard data={blogData.managePosture} />
       <PreviewCard data={blogData.postureCorrection} />
       <PreviewCard data={blogData.tmj} />
       <PreviewCard data={blogData.lowBackPain2} />

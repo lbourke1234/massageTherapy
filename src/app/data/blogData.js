@@ -11,6 +11,7 @@ import neckPainPic from "/public/resources/blogPosts/neck-pain.webp";
 import lowBackPain from "/public/resources/blogPosts/low-back-pain.webp";
 import lowBackPain2 from "/public/resources/blogPosts/back-2.webp";
 import tmjPic from "/public/resources/blogPosts/tmj.webp";
+import managePosturePic from "/public/resources/blogPosts/managing-posture.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -146,6 +147,18 @@ posture until a stiff neck, aching back, or tired muscles remind us of its impor
     link: `/blog/posture-correction-benefits-and-secrets-to-better-alignment`,
     image: posturePicture,
     alt: "Woman holding a yoga pose with correct posture",
+  },
+  managePosture: {
+    author: `Marta Suchanska`,
+    date: `31st Dec`,
+    title: `What Role Can Massage Play in Correcting or Managing Posture?`,
+    preview: `Did you know that poor posture affects over 80% of office workers, leading to chronic
+back pain, fatigue, and even impaired breathing? Whether it's from sitting hunched
+over a desk, scrolling through your phone, or enduring the daily grind of stress,
+posture problems are becoming increasingly common.`,
+    link: `/blog/massage-to-correct-and-manage-posture`,
+    image: managePosturePic,
+    alt: "Woman stretching showing improved posture",
   },
   temp: {
     author: `Marta Suchanska`,
