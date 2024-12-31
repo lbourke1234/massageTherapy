@@ -5,7 +5,7 @@ import OrderedList from "./components/OrderedList";
 import ListItem from "./components/ListItem";
 import UnorderedList from "./components/UnorderedList";
 import Bold from "./components/Bold";
-import Picture from "/public/resources/blogposts/managing-posture.webp";
+import Picture from "/public/resources/blogPosts/managing-posture.webp";
 import Link from "next/link";
 import Space from "../about/Space";
 import FastNavbar from "@/app/components/nav/FastNavbar";
