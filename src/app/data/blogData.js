@@ -12,6 +12,7 @@ import lowBackPain from "/public/resources/blogPosts/low-back-pain.webp";
 import lowBackPain2 from "/public/resources/blogPosts/back-2.webp";
 import tmjPic from "/public/resources/blogPosts/tmj.webp";
 import managePosturePic from "/public/resources/blogPosts/managing-posture.webp";
+import breakingFreePic from "/public/resources/blogPosts/low-back-20-jan.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -158,6 +159,18 @@ over a desk, scrolling through your phone, or enduring the daily grind of stress
 posture problems are becoming increasingly common.`,
     link: `/blog/massage-to-correct-and-manage-posture`,
     image: managePosturePic,
+    alt: "Woman stretching showing improved posture",
+  },
+  breakingFreeFromBackPain: {
+    author: `Marta Suchanska`,
+    date: `20th Jan`,
+    title: `Breaking Free from Low Back Pain`,
+    preview: `Low back pain is more than just a common complaint; it's a significant barrier to
+living a full and active life. Did you know that low back pain is the leading cause of
+job-related disability worldwide? It affects nearly everyone at some point, disrupting
+daily routines, productivity, and overall well-being.`,
+    link: `/blog/breaking-free-from-low-back-pain`,
+    image: breakingFreePic,
     alt: "Woman stretching showing improved posture",
   },
   temp: {
