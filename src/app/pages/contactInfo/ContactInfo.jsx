@@ -3,6 +3,7 @@ import React from "react";
 import ContactIcon from "./ContactIcon";
 import LinkedInIcon from "./LinkedInIcon";
 import InstagramIcon from "./InstagramIcon";
+import Link from "next/link";
 
 const ContactInfo = () => {
   return (
@@ -10,7 +11,10 @@ const ContactInfo = () => {
       <div className="flex flex-col cm800:flex-row pt-4 px-4 text-black justify-around">
         <ul>
           <li className="text-customYellow pb-6 text-[1.4em] list-none">Location</li>
-          <li className="list-none pb-4">The Charterhouse Clinic</li>
+          <Link target={"_blank"} href={"https://charterhousecliniclondon.com/"}>
+            <li className="list-none pb-4">The Charterhouse Clinic</li>
+          </Link>
+
           <li className="list-none pb-4">98 Crawford St</li>
           <li className="list-none pb-4">London</li>
           <li className="list-none pb-4">W1H 2HL</li>
