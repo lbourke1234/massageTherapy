@@ -13,6 +13,7 @@ import lowBackPain2 from "/public/resources/blogPosts/back-2.webp";
 import tmjPic from "/public/resources/blogPosts/tmj.webp";
 import managePosturePic from "/public/resources/blogPosts/managing-posture.webp";
 import breakingFreePic from "/public/resources/blogPosts/low-back-20-jan.webp";
+import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-massage.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -171,6 +172,18 @@ job-related disability worldwide? It affects nearly everyone at some point, disr
 daily routines, productivity, and overall well-being.`,
     link: `/blog/breaking-free-from-low-back-pain`,
     image: breakingFreePic,
+    alt: "Woman stretching showing improved posture",
+  },
+  tenBenefitsMassageTherapy: {
+    author: `Marta Suchanska`,
+    date: `2nd Feb`,
+    title: `10 Surprising Benefits of Regular Massage Therapy for Your Body and Mind
+Introduction`,
+    preview: `Massage therapy is no longer just a luxury reserved for spas or special occasions. It has
+evolved into a holistic health practice, grounded in science and valued for its profound effects on
+physical and mental well-being.`,
+    link: `/blog/ten-benefits-of-massage-therapy-for-body-and-mind`,
+    image: tenBenefitsofMassage,
     alt: "Woman stretching showing improved posture",
   },
   temp: {
