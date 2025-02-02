@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import martaImage from "/public/resources/webp/Marta_Osteopath-20.webp";
+import martaImageNew from "/public/resources/webp/Marta_Osteopath-326.webp";
 import GoogleSVG from "./components/GoogleSVG";
 import FiveStarHero from "@/app/components/reuse/FiveStarHero";
 import TreatWellLogo from "/public/resources/Treatwell_idHx-s1Ql7_2.png";
@@ -70,8 +71,8 @@ const HeroTextLeftImageRight = () => {
         </div>
         <div className="cmMobile:p-4 cm1050:p-0 cm1050:basis-1/2 basis-full cm1050:h-screen order-1 cm1050:order-2 cm992:mt-0 cmMobile:mt-14">
           <Image
-            className=" cmMobile:object-[-130px] cm450:object-[0px] cmMobile:h-[500px] cm800:h-full cmMobile:rounded-3xl cm1050:rounded-none object-cover cm1050:object-[-210px]"
-            src={martaImage}
+            className="   cmMobile:h-[500px] cm800:h-full cmMobile:rounded-3xl cm1050:rounded-none object-cover "
+            src={martaImageNew}
             alt="Marta, the London-based massage therapist specializing in sports massage, deep tissue, and relaxation techniques"
             width={1294}
             height={1280}
