@@ -38,7 +38,7 @@ const TenBenefitsOfRegularMassage = () => {
         </Link>
         <div className="pt-4">
           <Heading1>
-            10 Surprising Benefits of Regular Massage Therapy for Your Body and Mind Introduction
+            10 Surprising Benefits of Regular Massage Therapy for Your Body and Mind
           </Heading1>
           <Paragraph>
             Massage therapy is no longer just a luxury reserved for spas or special occasions. It

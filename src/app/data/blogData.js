@@ -177,8 +177,7 @@ daily routines, productivity, and overall well-being.`,
   tenBenefitsMassageTherapy: {
     author: `Marta Suchanska`,
     date: `2nd Feb`,
-    title: `10 Surprising Benefits of Regular Massage Therapy for Your Body and Mind
-Introduction`,
+    title: `10 Surprising Benefits of Regular Massage Therapy for Your Body and Mind`,
     preview: `Massage therapy is no longer just a luxury reserved for spas or special occasions. It has
 evolved into a holistic health practice, grounded in science and valued for its profound effects on
 physical and mental well-being.`,
