@@ -7,12 +7,8 @@ import Heading1 from "./components/Heading1";
 import BespokeButton from "./BespokeButton";
 import Paragraph from "./components/Paragraph";
 import Bold from "./components/Bold";
-import Reference from "./components/Reference";
 import ContactInfo from "../contactInfo/ContactInfo";
-import Picture from "/public/resources/blogPosts/back-2.webp";
-import UnorderedList from "./components/UnorderedList";
-import ListItem from "./components/ListItem";
-import OrderedList from "./components/OrderedList";
+import Picture from "/public/resources/blogPosts/ten-benefits-of-massage.webp";
 import Heading2 from "./components/Heading2";
 
 const TenBenefitsOfRegularMassage = () => {
@@ -28,7 +24,7 @@ const TenBenefitsOfRegularMassage = () => {
           width={1792}
           sizes="(min-width: 800px) 75vw, 95vw"
           placeholder="blur"
-          alt="Healthy person reading while drinking a hot drink, with oats and healthy food"
+          alt="Marta massaging a client in London"
           loading="eager"
         />
         <Link href={"/blog"}>
