@@ -14,6 +14,7 @@ import tmjPic from "/public/resources/blogPosts/tmj.webp";
 import managePosturePic from "/public/resources/blogPosts/managing-posture.webp";
 import breakingFreePic from "/public/resources/blogPosts/low-back-20-jan.webp";
 import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-massage.webp";
+import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -184,6 +185,17 @@ physical and mental well-being.`,
     link: `/blog/ten-benefits-of-massage-therapy-for-body-and-mind`,
     image: tenBenefitsofMassage,
     alt: "Woman stretching showing improved posture",
+  },
+  scienceBehindBuccal: {
+    author: `Marta Suchanska`,
+    date: `16th Feb`,
+    title: `Discover the Science Behind Buccal Massage and Its Anti-Aging Benefits`,
+    preview: `In the ever-evolving world of beauty and wellness, buccal massage has emerged as a
+revolutionary technique for achieving youthful, glowing skin. But what exactly is buccal
+massage, and why is it garnering so much attention?`,
+    link: `/blog/the-science-behind-buccal-massage-and-its-anti-aging-benefits`,
+    image: buccalSciencePic,
+    alt: "Gentle buccal massage for anti-aging benefits",
   },
   temp: {
     author: `Marta Suchanska`,
