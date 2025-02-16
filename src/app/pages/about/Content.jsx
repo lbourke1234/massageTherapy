@@ -1,7 +1,8 @@
 import React from "react";
 import TextColumn from "./TextColumn";
 import Image from "next/image";
-import Picture from "/public/resources/webp/Marta_Osteopath-205.webp";
+// import Picture from "/public/resources/webp/Marta_Osteopath-205.webp";
+import Picture from "/public/resources/blogPosts/marta-about.webp";
 
 const Content = () => {
   return (
