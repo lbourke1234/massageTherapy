@@ -5,6 +5,7 @@ import { blogData } from "../../data/blogData";
 const CardsContainer = () => {
   return (
     <div className="w-full cm1200:w-[70%] m-auto flex flex-wrap">
+      <PreviewCard data={blogData.understandingBackPain} />
       <PreviewCard data={blogData.scienceBehindBuccal} />
       <PreviewCard data={blogData.tenBenefitsMassageTherapy} />
       <PreviewCard data={blogData.breakingFreeFromBackPain} />
