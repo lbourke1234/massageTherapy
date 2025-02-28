@@ -15,6 +15,7 @@ import managePosturePic from "/public/resources/blogPosts/managing-posture.webp"
 import breakingFreePic from "/public/resources/blogPosts/low-back-20-jan.webp";
 import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-massage.webp";
 import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.webp";
+import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.webp";
 
 export const blogData = {
   youAreWhatYouEat: {
@@ -196,6 +197,17 @@ massage, and why is it garnering so much attention?`,
     link: `/blog/the-science-behind-buccal-massage-and-its-anti-aging-benefits`,
     image: buccalSciencePic,
     alt: "Gentle buccal massage for anti-aging benefits",
+  },
+  understandingBackPain: {
+    author: `Marta Suchanska`,
+    date: `28th Feb`,
+    title: `Understanding Neck Pain`,
+    preview: `Neck pain is a common
+issue affecting people of all ages, often caused by modern lifestyle habits,
+stress, and poor posture.`,
+    link: `/blog/understanding-neck-pain`,
+    image: neckPainPic2,
+    alt: "Woman strentching her neck while relaxing",
   },
   temp: {
     author: `Marta Suchanska`,
