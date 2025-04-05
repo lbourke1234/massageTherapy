@@ -1,4 +1,5 @@
 import youAreWhatYouEat from "/public/resources/webp/blog eat.webp";
+import ManualLymphaticDrainageImg from "/public/resources/blogPosts/manual-lymphatic-drainage.jpg";
 import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
 import posturePicture from "/public/resources/webp/Marta_Osteopath-241.webp";
@@ -16,8 +17,18 @@ import breakingFreePic from "/public/resources/blogPosts/low-back-20-jan.webp";
 import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-massage.webp";
 import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.webp";
 import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.webp";
+import ManualLymphaticDrainage from "../pages/blogPosts/ManualLymphaticDrainage";
 
 export const blogData = {
+  ManualLymphaticDrainage: {
+    author: `Marta Suchanska`,
+    date: `5th Apr 2025`,
+    title: `Is Manual Lymphatic Drainage the Right Massage Treatment for You?`,
+    preview: `Have you ever felt bloated, sluggish, or just generally out of balance? Your lymphatic system might need a little extra care.`,
+    link: `/blog/manual-lymphatic-drainage`,
+    image: ManualLymphaticDrainageImg,
+    alt: "Healthy person reading while drinking a hot drink, with oats and healthy food",
+  },
   youAreWhatYouEat: {
     author: `Marta Suchanska`,
     date: `13th Apr 2024`,
