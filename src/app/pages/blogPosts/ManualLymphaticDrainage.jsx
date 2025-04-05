@@ -2,7 +2,6 @@ import React from "react";
 import Space from "../about/Space";
 import Image from "next/image";
 import Link from "next/link";
-import BespokeButton from "./BespokeButton";
 import ContactInfo from "../contactInfo/ContactInfo";
 import Picture from "/public/resources/webp/Marta_Osteopath-403.webp";
 import FastNavbar from "@/app/components/nav/FastNavbar";
@@ -126,12 +125,11 @@ const ManualLymphaticDrainage = () => {
             If you’re in London and considering Manual Lymphatic Drainage, I’d love to help you determine if it’s the right fit for your needs. Book a consultation or session today and experience the benefits of this gentle yet effective therapy! 💆‍♀️✨
           </p>
 
-          <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2">Have any questions?</h3>
-          <p className="cm800:text-[1.2em]">Feel free to reach out!</p>
-          <p className="cm800:text-[1.2em]">See you soon!</p>
-          <p className="cm800:text-[1.2em]">Marta</p>
-
-          <BespokeButton />
+          <p className="cm800:text-[1.2em] pt-4 font-semibold">
+            📌 Have questions about MLD? DM me! <a href="mailto:marta@massagetherapy.london" className="underline">marta@massagetherapy.london</a>
+          </p>
+          <p className="cm800:text-[1.2em] pt-1">Marta Suchanska</p>
+          <p className="cm800:text-[1.2em] pb-4">Certified Massage Therapist / Year 4 Student Osteopath</p>
         </div>
       </div>
       <ContactInfo />
