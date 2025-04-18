@@ -1,5 +1,6 @@
 import youAreWhatYouEat from "/public/resources/webp/blog eat.webp";
 import ManualLymphaticDrainageImg from "/public/resources/blogPosts/manual-lymphatic-drainage.jpg";
+import ManualLymphaticDrainagePostSurgeryImg from "/public/resources/blogPosts/MDL-post-surgery.jpg";
 import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
 import posturePicture from "/public/resources/webp/Marta_Osteopath-241.webp";
@@ -20,6 +21,15 @@ import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.we
 import ManualLymphaticDrainage from "../pages/blogPosts/ManualLymphaticDrainage";
 
 export const blogData = {
+  ManualLymphaticDrainagePostSurgery: {
+    author: `Marta Suchanska`,
+    date: `17th Apr 2025`,
+    title: `Manual Lymphatic Drainage for Post Surgery: A Gentle Path to Faster Healing`,
+    preview: `Surgery is a powerful intervention. Whether it's cosmetic, reconstructive, or medically necessary, the body goes through significant trauma during the process`,
+    link: `/blog/manual-lymphatic-drainage-post-surgery`,
+    image: ManualLymphaticDrainagePostSurgeryImg,
+    alt: "Healthy person reading while drinking a hot drink, with oats and healthy food",
+  },
   ManualLymphaticDrainage: {
     author: `Marta Suchanska`,
     date: `5th Apr 2025`,
