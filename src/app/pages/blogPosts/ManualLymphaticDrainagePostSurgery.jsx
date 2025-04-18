@@ -33,10 +33,10 @@ const ManualLymphaticDrainage = () => {
           </h1>
 
           <p className="cm800:text-[1.2em]">
-            Surgery is a powerful intervention. Whether it's cosmetic, reconstructive, or medically necessary, the body goes through significant trauma during the process. One of the most common and uncomfortable side effects of surgery is swelling — a natural part of healing, but one that can delay recovery, cause discomfort, and lead to complications like fibrosis or seromas.
+            Surgery is a powerful intervention. Whether it&apos;s cosmetic, reconstructive, or medically necessary, the body goes through significant trauma during the process. One of the most common and uncomfortable side effects of surgery is swelling — a natural part of healing, but one that can delay recovery, cause discomfort, and lead to complications like fibrosis or seromas.
           </p>
           <p className="cm800:text-[1.2em] pt-2">
-            This is where <strong>Manual Lymphatic Drainage (MLD)</strong> can be a game changer. In recent years, it’s become a go-to recommendation by surgeons and therapists alike — and for good reason.
+            This is where <strong>Manual Lymphatic Drainage (MLD)</strong> can be a game changer. In recent years, it&rsquo;s become a go-to recommendation by surgeons and therapists alike — and for good reason.
           </p>
 
           <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 pt-4">
@@ -51,11 +51,11 @@ const ManualLymphaticDrainage = () => {
 
           <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 pt-4">
             <strong>What Is Manual Lymphatic Drainage?</strong>
-                  </h3>
-                  <p className="cm800:text-[1.2em]">
-                      <strong>Manual Lymphatic Drainage (MLD)</strong> is a very gentle, rhythmic technique that works with the body’s natural lymphatic system. 
-                      <strong>The aim of MLD</strong> is to stimulate lymph flow by guiding fluid towards the nearest working lymph nodes. This helps the body drain excess fluid, reduce inflammation, and detoxify tissues, all while boosting the immune response.
+          </h3>
+          <p className="cm800:text-[1.2em]">
+            <strong>Manual Lymphatic Drainage (MLD)</strong> is a very gentle, rhythmic technique that works with the body&rsquo;s natural lymphatic system. <strong>The aim of MLD</strong> is to stimulate lymph flow by guiding fluid towards the nearest working lymph nodes. This helps the body drain excess fluid, reduce inflammation, and detoxify tissues, all while boosting the immune response.
           </p>
+
           <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 pt-4">
             <strong>Benefits of Lymphatic Drainage After Surgery</strong>
           </h3>
@@ -70,8 +70,9 @@ const ManualLymphaticDrainage = () => {
             <li className="cm800:text-[1.2em] ml-5">Improves overall comfort and range of motion</li>
           </ul>
           <p className="cm800:text-[1.2em]">
-          It’s not just about looking better — though that’s a benefit too. MLD helps you feel more like yourself again during a time when your body is working hard to heal.
+            It&rsquo;s not just about looking better — though that&rsquo;s a benefit too. MLD helps you feel more like yourself again during a time when your body is working hard to heal.
           </p>
+
           <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 pt-4">
             <strong>Who Can Benefit?</strong>
           </h3>
@@ -85,7 +86,7 @@ const ManualLymphaticDrainage = () => {
             <li className="cm800:text-[1.2em] ml-5">Any post-op recovery with swelling or reduced lymph flow</li>
           </ul>
           <p className="cm800:text-[1.2em] pb-4">
-            <strong>If you’re experiencing lingering swelling, discomfort, or want to optimise your healing process, MLD is worth considering.</strong>
+            <strong>If you&rsquo;re experiencing lingering swelling, discomfort, or want to optimise your healing process, MLD is worth considering.</strong>
           </p>
 
           <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 pt-4">
@@ -96,7 +97,7 @@ const ManualLymphaticDrainage = () => {
           </p>
           <ul className="list-disc cm800:ml-10 pb-4">
             <li className="cm800:text-[1.2em] ml-5">During active infection or fever</li>
-            <li className="cm800:text-[1.2em] ml-5">Without your doctor’s clearance in early post-op stages</li>
+            <li className="cm800:text-[1.2em] ml-5">Without your doctor&rsquo;s clearance in early post-op stages</li>
           </ul>
           <p className="cm800:text-[1.2em] pb-4">
             <strong>Always consult your surgeon or GP before starting MLD after surgery — particularly in the first few weeks.</strong>
@@ -106,7 +107,7 @@ const ManualLymphaticDrainage = () => {
             <strong>What to Expect During a Session</strong>
           </h3>
           <p className="cm800:text-[1.2em]">
-            Your first session will likely begin with a brief consultation to discuss your surgery, recovery timeline, and any symptoms. Then, you’ll lie comfortably on a treatment table.
+            Your first session will likely begin with a brief consultation to discuss your surgery, recovery timeline, and any symptoms. Then, you&rsquo;ll lie comfortably on a treatment table.
           </p>
           <ul className="list-disc cm800:ml-10 pb-4">
             <li className="cm800:text-[1.2em] ml-5">No oils or deep pressure are used</li>
@@ -114,7 +115,7 @@ const ManualLymphaticDrainage = () => {
             <li className="cm800:text-[1.2em] ml-5">Visible results often appear within 24–48 hours</li>
           </ul>
           <p className="cm800:text-[1.2em] pb-4">
-            <strong>It’s a gentle, calming experience that works deeply, without causing additional stress to your body.</strong>
+            <strong>It&rsquo;s a gentle, calming experience that works deeply, without causing additional stress to your body.</strong>
           </p>
 
           <h3 className="text-2xl cm800:text-[2rem] font-semibold pb-2 pt-4">
@@ -133,10 +134,10 @@ const ManualLymphaticDrainage = () => {
           </p>
 
           <p className="cm800:text-[1.2em] pb-4">
-            <strong>Manual Lymphatic Drainage is more than a trend — it’s a clinically supported therapy</strong> that can make a real difference in your surgical recovery. Whether you’re a few days post-op or dealing with long-term swelling, a well-timed series of MLD sessions can help you feel lighter, reduce complications, and move through recovery with more ease.
+            <strong>Manual Lymphatic Drainage is more than a trend — it&rsquo;s a clinically supported therapy</strong> that can make a real difference in your surgical recovery. Whether you&rsquo;re a few days post-op or dealing with long-term swelling, a well-timed series of MLD sessions can help you feel lighter, reduce complications, and move through recovery with more ease.
           </p>
           <p className="cm800:text-[1.2em] pb-4">
-          If you’re looking for <strong>professional lymphatic drainage in London</strong>, I offer personalised sessions in a safe, supportive setting in Marylebone.
+            If you&rsquo;re looking for <strong>professional lymphatic drainage in London</strong>, I offer personalised sessions in a safe, supportive setting in Marylebone.
           </p>
           <p className="cm800:text-[1.2em] pb-4">
             <strong>Ready to feel more comfortable in your healing body?</strong>
@@ -152,7 +153,7 @@ const ManualLymphaticDrainage = () => {
             </Link>
           </div>
           <p className="cm800:text-[1.2em] pt-4">
-            Let’s work together to help you heal from the inside out.
+            Let&rsquo;s work together to help you heal from the inside out.
           </p>
           <p className="cm800:text-[1.2em] pt-1">
             <strong>Marta Suchanska</strong>
