@@ -4,6 +4,7 @@ import ManualLymphaticDrainagePostSurgeryImg from "/public/resources/blogPosts/M
 import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
 import posturePicture from "/public/resources/webp/Marta_Osteopath-241.webp";
+import buccalMassageImg from "/public/resources/blogPosts/buccal-massage.jpg";
 import mld from "/public/resources/blogPosts/mld.webp";
 import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
 import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
@@ -19,8 +20,18 @@ import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-ma
 import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.webp";
 import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.webp";
 import ManualLymphaticDrainage from "../pages/blogPosts/ManualLymphaticDrainage";
+import BuccalMassage from "../pages/blogPosts/buccalMassage";
 
 export const blogData = {
+  BuccalMassage: {
+    author: `Marta Suchanska`,
+    date: `23th Apr 2025`,
+    title: `Buccal Massage – Is It Worth It?`,
+    preview: `Buccal massage is a powerful intraoral facial therapy that targets jaw tension, enhances facial contours, and boosts lymphatic drainage. Discover the benefits of this holistic treatment and why it's gaining popularity in London.`,
+    link: `/blog/buccal-massage`,
+    image: buccalMassageImg,
+    alt: "Woman getting a massage in a spa",
+  },
   ManualLymphaticDrainagePostSurgery: {
     author: `Marta Suchanska`,
     date: `17th Apr 2025`,
