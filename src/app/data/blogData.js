@@ -5,6 +5,7 @@ import bespokeMassageTreatment from "/public/resources/webp/massage blog.webp";
 import buccalMassageBenefits from "/public/resources/webp/Marta_Osteopath-403.webp";
 import posturePicture from "/public/resources/webp/Marta_Osteopath-241.webp";
 import buccalMassageImg from "/public/resources/blogPosts/buccal-massage.jpg";
+import MyofascialTherapyImg from "/public/resources/blogPosts/myofascial-therapy.jpg";
 import mld from "/public/resources/blogPosts/mld.webp";
 import sportsMassagePic from "/public/resources/blogPosts/sports-massage.webp";
 import pregnancyPic from "/public/resources/blogPosts/pregnancy-massage.webp";
@@ -19,10 +20,17 @@ import breakingFreePic from "/public/resources/blogPosts/low-back-20-jan.webp";
 import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-massage.webp";
 import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.webp";
 import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.webp";
-import ManualLymphaticDrainage from "../pages/blogPosts/ManualLymphaticDrainage";
-import BuccalMassage from "../pages/blogPosts/buccalMassage";
 
 export const blogData = {
+  MyofascialTherapy: {
+    author: `Marta Suchanska`,
+    date: `2th May 2025`,
+    title: `What Can Myofascial Therapy Treat?`,
+    preview: `If you’ve ever experienced lingering muscle tightness or chronic pain that doesn’t quite go away with regular massage or stretching, the root cause might lie deeper—within your fascia. Myofascial release therapy targets these intricate connective tissues to help unlock tension, improve posture, and ease chronic discomfort.`,
+    link: `/blog/myofascial-therapy`,
+    image: MyofascialTherapyImg,
+    alt: "womaan getting a massage in a spa",
+  },
   BuccalMassage: {
     author: `Marta Suchanska`,
     date: `23th Apr 2025`,
