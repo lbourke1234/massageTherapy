@@ -20,8 +20,18 @@ import breakingFreePic from "/public/resources/blogPosts/low-back-20-jan.webp";
 import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-massage.webp";
 import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.webp";
 import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.webp";
-
+import LymphaticDrainageImg from "/public/resources/blogPosts/lymphatic-drainage-ammuine-system.jpg";
 export const blogData = {
+  LymphaticDrainageAmmuineSystem: {
+  author: `Marta Suchanska`,
+  date: `17th May 2025`,
+  title: `Is Lymphatic Drainage Good for Autoimmune Disease?`,
+  preview: `Explore how manual lymphatic drainage (MLD) offers relief for autoimmune symptoms like swelling, fatigue, and inflammation. Learn how this gentle technique supports detox, boosts circulation, and promotes a calmer immune response.`,
+  link: `/blog/lymphatic-drainge-ammuine-system`,
+  image: LymphaticDrainageImg,
+  alt: "person receiving lymphatic drainage therapy",
+},
+
   MyofascialTherapy: {
     author: `Marta Suchanska`,
     date: `2th May 2025`,
