@@ -1,7 +1,9 @@
 import React from "react";
 import Space from "../about/Space";
+import Image from "next/image";
 import Link from "next/link";
 import ContactInfo from "../contactInfo/ContactInfo";
+import TMJDisorderImg from "/public/resources/blogPosts/TMJDisorder.jpg";
 import FastNavbar from "@/app/components/nav/FastNavbar";
 
 const TMJDisorderSymptoms = () => {
@@ -10,6 +12,18 @@ const TMJDisorderSymptoms = () => {
       <FastNavbar />
       <Space />
       <div className="w-[95%] cm800:w-[70%] text-black m-auto">
+        <div className="relative w-full aspect-[1792/647] rounded-3xl overflow-hidden">
+  <Image
+    className="object-cover"
+    src={TMJDisorderImg}
+    fill
+    sizes="(min-width: 800px) 70vw, 95vw"
+    placeholder="blur"
+    alt="Person experiencing TMJ disorder"
+    loading="eager"
+  />
+</div>
+
         <Link href="/blog">
           <button className="py-[0.7rem] px-[2.75rem] border leading-[1.5] text-black bg-white bg-clip-padding border-solid border-gray-600 rounded-3xl mt-4 transition duration-150 ease-in-out hover:border-gray-400 hover:shadow-md hover:scale-105">
             Back
@@ -149,7 +163,6 @@ const TMJDisorderSymptoms = () => {
             </li>
           </ul>
 
-         
           <p className="cm800:text-[1.2em] font-semibold pb-1">
             Ready to find relief? Book a Buccal massage today and take the first step toward pain-free jaw function.
           </p>
