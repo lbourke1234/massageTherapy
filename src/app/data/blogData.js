@@ -21,7 +21,17 @@ import tenBenefitsofMassage from "/public/resources/blogPosts/ten-benefits-of-ma
 import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.webp";
 import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.webp";
 import LymphaticDrainageImg from "/public/resources/blogPosts/lymphatic-drainage-ammuine-system.jpg";
+import TMJDisorderImg from "/public/resources/blogPosts/TMJDisorder.jpg";
 export const blogData = {
+  TMJDisorderSymptoms: {
+  author: `Marta Suchanska`,
+  date: `3th July May 2025`,
+  title: `What Are TMJ Disorder Symptoms?`,
+  preview: `Living with persistent jaw pain, headaches, and difficulty chewing can be more than a nuisance—it may signal TMJ disorder. Discover key symptoms like jaw tenderness, clicking sounds, limited motion, headaches, earaches, and when to seek care.`,
+  link: `/blog/tmj-disorder`,
+  image: TMJDisorderImg,
+  alt: "person holding jaw in pain",
+},
   LymphaticDrainageAmmuineSystem: {
   author: `Marta Suchanska`,
   date: `17th May 2025`,
