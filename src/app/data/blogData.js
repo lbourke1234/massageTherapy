@@ -22,7 +22,18 @@ import buccalSciencePic from "/public/resources/blogPosts/science-behind-buccal.
 import neckPainPic2 from "/public/resources/blogPosts/understanding-neck-pain.webp";
 import LymphaticDrainageImg from "/public/resources/blogPosts/lymphatic-drainage-ammuine-system.jpg";
 import TMJDisorderImg from "/public/resources/blogPosts/TMJDisorder.jpg";
+import EffectiveMassage from "/public/resources/blogPosts/typesOfMassages.jpg";
 export const blogData = {
+  MostEffectiveMassage: {
+  author: `Marta Suchanska`,
+  date: `9th June 2025`,
+  title: `What is the Most Effective Type of Massage?`,
+  preview: `Not sure which massage style is best for you? From lymphatic drainage to buccal and deep tissue, this guide breaks down the most popular massage types and when to use each for best results.`,
+  link: `/blog/most-effective-massage`,
+  image: EffectiveMassage,
+  alt: "client receiving a relaxing massage in spa setting",
+},
+
   TMJDisorderSymptoms: {
   author: `Marta Suchanska`,
   date: `3th July May 2025`,
